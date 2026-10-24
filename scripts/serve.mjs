@@ -1,7 +1,7 @@
 // `npm run dev` — bağımlılıksız statik sunucu. Repo kökünü sunar, demo/ sayfasını açar.
 //   node scripts/serve.mjs [--port 8080] [--root site]
 import { createServer } from 'node:http';
-import { createReadStream } from 'node:fs';
+import { createReadStream, existsSync, readFileSync } from 'node:fs';
 import { stat } from 'node:fs/promises';
 import { extname, join, normalize, resolve } from 'node:path';
 
@@ -18,11 +18,19 @@ const TYPES = {
   '.json': 'application/json; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
   '.svg': 'image/svg+xml',
+  '.png': 'image/png',
   '.md': 'text/markdown; charset=utf-8',
 };
 
+// site/_redirects varsa Cloudflare gibi uygula (yalnız "/yol" ve "/yol/*" kuralları); yoksa / → /demo/
+const redirects = existsSync(join(root, '_redirects'))
+  ? readFileSync(join(root, '_redirects'), 'utf8').split('\n').map((l) => l.trim().split(/\s+/)).filter((r) => r.length >= 2 && r[0].startsWith('/'))
+  : [['/', '/demo/', '302']];
+
 createServer(async (req, res) => {
   const url = new URL(req.url, 'http://x');
+  const rule = redirects.find(([from]) => (from.endsWith('/*') ? url.pathname.startsWith(from.slice(0, -1)) : url.pathname === from));
+  if (rule) return res.writeHead(Number(rule[2] || 302), { Location: rule[1] }).end();
   let file = normalize(join(root, decodeURIComponent(url.pathname)));
   if (!file.startsWith(root)) return res.writeHead(403).end();
   try {
@@ -37,4 +45,4 @@ createServer(async (req, res) => {
   } catch {
     res.writeHead(404, { 'Content-Type': 'text/plain' }).end('404');
   }
-}).listen(port, () => console.log(`http://localhost:${port}/${root.endsWith('site') ? '' : 'demo/'}`));
+}).listen(port, () => console.log(`http://localhost:${port}/`));

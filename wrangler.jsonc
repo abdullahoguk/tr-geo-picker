@@ -1,0 +1,11 @@
+// Cloudflare Workers (static assets) — demo sitesi.
+// Build: `node scripts/build-site.mjs` site/ klasörünü üretir; `npx wrangler deploy` onu yayınlar.
+// site/_headers ve site/_redirects Workers tarafından doğrudan uygulanır. Worker script'i yoktur.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tr-geo-picker",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./site"
+  }
+}

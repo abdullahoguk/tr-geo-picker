@@ -1,0 +1,5450 @@
+{
+  "source": "https://www.e-icisleri.gov.tr/Anasayfa/MulkiIdariBolumleri.aspx",
+  "accessedAt": "2026-10-24T11:38:00.400Z",
+  "summary": {
+    "Il": 81,
+    "BuyuksehirBelediye": 30,
+    "Ilce": 922,
+    "IlBelediye": 51,
+    "Mahalle": 32326,
+    "BuyuksehirIlceBelediye": 519,
+    "Koy": 18211,
+    "IlceBelediye": 403,
+    "BeldeBelediye": 399,
+    "ToplamBelediye": 1402
+  },
+  "iller": [
+    {
+      "plaka": "01",
+      "name": "Adana",
+      "rawName": "ADANA",
+      "ilceler": [
+        {
+          "code": "973",
+          "name": "Aladağ",
+          "rawName": "ALADAĞ"
+        },
+        {
+          "code": "974",
+          "name": "Ceyhan",
+          "rawName": "CEYHAN"
+        },
+        {
+          "code": "7595729",
+          "name": "Çukurova",
+          "rawName": "ÇUKUROVA"
+        },
+        {
+          "code": "975",
+          "name": "Feke",
+          "rawName": "FEKE"
+        },
+        {
+          "code": "976",
+          "name": "İmamoğlu",
+          "rawName": "İMAMOĞLU"
+        },
+        {
+          "code": "977",
+          "name": "Karaisalı",
+          "rawName": "KARAİSALI"
+        },
+        {
+          "code": "978",
+          "name": "Karataş",
+          "rawName": "KARATAŞ"
+        },
+        {
+          "code": "979",
+          "name": "Kozan",
+          "rawName": "KOZAN"
+        },
+        {
+          "code": "980",
+          "name": "Pozantı",
+          "rawName": "POZANTI"
+        },
+        {
+          "code": "981",
+          "name": "Saimbeyli",
+          "rawName": "SAİMBEYLİ"
+        },
+        {
+          "code": "7595571",
+          "name": "Sarıçam",
+          "rawName": "SARIÇAM"
+        },
+        {
+          "code": "982",
+          "name": "Seyhan",
+          "rawName": "SEYHAN"
+        },
+        {
+          "code": "983",
+          "name": "Tufanbeyli",
+          "rawName": "TUFANBEYLİ"
+        },
+        {
+          "code": "984",
+          "name": "Yumurtalık",
+          "rawName": "YUMURTALIK"
+        },
+        {
+          "code": "985",
+          "name": "Yüreğir",
+          "rawName": "YÜREĞİR"
+        }
+      ]
+    },
+    {
+      "plaka": "02",
+      "name": "Adıyaman",
+      "rawName": "ADIYAMAN",
+      "ilceler": [
+        {
+          "code": "986",
+          "name": "Besni",
+          "rawName": "BESNİ"
+        },
+        {
+          "code": "987",
+          "name": "Çelikhan",
+          "rawName": "ÇELİKHAN"
+        },
+        {
+          "code": "988",
+          "name": "Gerger",
+          "rawName": "GERGER"
+        },
+        {
+          "code": "989",
+          "name": "Gölbaşı",
+          "rawName": "GÖLBAŞI"
+        },
+        {
+          "code": "990",
+          "name": "Kahta",
+          "rawName": "KAHTA"
+        },
+        {
+          "code": "135",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "991",
+          "name": "Samsat",
+          "rawName": "SAMSAT"
+        },
+        {
+          "code": "992",
+          "name": "Sincik",
+          "rawName": "SİNCİK"
+        },
+        {
+          "code": "993",
+          "name": "Tut",
+          "rawName": "TUT"
+        }
+      ]
+    },
+    {
+      "plaka": "03",
+      "name": "Afyonkarahisar",
+      "rawName": "AFYONKARAHİSAR",
+      "ilceler": [
+        {
+          "code": "994",
+          "name": "Başmakçı",
+          "rawName": "BAŞMAKÇI"
+        },
+        {
+          "code": "995",
+          "name": "Bayat",
+          "rawName": "BAYAT"
+        },
+        {
+          "code": "996",
+          "name": "Bolvadin",
+          "rawName": "BOLVADİN"
+        },
+        {
+          "code": "997",
+          "name": "Çay",
+          "rawName": "ÇAY"
+        },
+        {
+          "code": "998",
+          "name": "Çobanlar",
+          "rawName": "ÇOBANLAR"
+        },
+        {
+          "code": "999",
+          "name": "Dazkırı",
+          "rawName": "DAZKIRI"
+        },
+        {
+          "code": "1000",
+          "name": "Dinar",
+          "rawName": "DİNAR"
+        },
+        {
+          "code": "1001",
+          "name": "Emirdağ",
+          "rawName": "EMİRDAĞ"
+        },
+        {
+          "code": "1002",
+          "name": "Evciler",
+          "rawName": "EVCİLER"
+        },
+        {
+          "code": "1003",
+          "name": "Hocalar",
+          "rawName": "HOCALAR"
+        },
+        {
+          "code": "1004",
+          "name": "İhsaniye",
+          "rawName": "İHSANİYE"
+        },
+        {
+          "code": "1005",
+          "name": "İscehisar",
+          "rawName": "İSCEHİSAR"
+        },
+        {
+          "code": "1006",
+          "name": "Kızılören",
+          "rawName": "KIZILÖREN"
+        },
+        {
+          "code": "144",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1007",
+          "name": "Sandıklı",
+          "rawName": "SANDIKLI"
+        },
+        {
+          "code": "4128609",
+          "name": "Sinanpaşa",
+          "rawName": "SİNANPAŞA"
+        },
+        {
+          "code": "1010",
+          "name": "Sultandağı",
+          "rawName": "SULTANDAĞI"
+        },
+        {
+          "code": "1009",
+          "name": "Şuhut",
+          "rawName": "ŞUHUT"
+        }
+      ]
+    },
+    {
+      "plaka": "04",
+      "name": "Ağrı",
+      "rawName": "AĞRI",
+      "ilceler": [
+        {
+          "code": "1011",
+          "name": "Diyadin",
+          "rawName": "DİYADİN"
+        },
+        {
+          "code": "1012",
+          "name": "Doğubayazıt",
+          "rawName": "DOĞUBAYAZIT"
+        },
+        {
+          "code": "1013",
+          "name": "Eleşkirt",
+          "rawName": "ELEŞKİRT"
+        },
+        {
+          "code": "1014",
+          "name": "Hamur",
+          "rawName": "HAMUR"
+        },
+        {
+          "code": "162",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1015",
+          "name": "Patnos",
+          "rawName": "PATNOS"
+        },
+        {
+          "code": "1016",
+          "name": "Taşlıçay",
+          "rawName": "TAŞLIÇAY"
+        },
+        {
+          "code": "1017",
+          "name": "Tutak",
+          "rawName": "TUTAK"
+        }
+      ]
+    },
+    {
+      "plaka": "68",
+      "name": "Aksaray",
+      "rawName": "AKSARAY",
+      "ilceler": [
+        {
+          "code": "1752",
+          "name": "Ağaçören",
+          "rawName": "AĞAÇÖREN"
+        },
+        {
+          "code": "1753",
+          "name": "Eskil",
+          "rawName": "ESKİL"
+        },
+        {
+          "code": "1754",
+          "name": "Gülağaç",
+          "rawName": "GÜLAĞAÇ"
+        },
+        {
+          "code": "1755",
+          "name": "Güzelyurt",
+          "rawName": "GÜZELYURT"
+        },
+        {
+          "code": "59829",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1756",
+          "name": "Ortaköy",
+          "rawName": "ORTAKÖY"
+        },
+        {
+          "code": "1757",
+          "name": "Sarıyahşi",
+          "rawName": "SARIYAHŞİ"
+        },
+        {
+          "code": "7713790",
+          "name": "Sultanhanı",
+          "rawName": "SULTANHANI"
+        }
+      ]
+    },
+    {
+      "plaka": "05",
+      "name": "Amasya",
+      "rawName": "AMASYA",
+      "ilceler": [
+        {
+          "code": "1018",
+          "name": "Göynücek",
+          "rawName": "GÖYNÜCEK"
+        },
+        {
+          "code": "1019",
+          "name": "Gümüşhacıköy",
+          "rawName": "GÜMÜŞHACIKÖY"
+        },
+        {
+          "code": "1020",
+          "name": "Hamamözü",
+          "rawName": "HAMAMÖZÜ"
+        },
+        {
+          "code": "170",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1021",
+          "name": "Merzifon",
+          "rawName": "MERZİFON"
+        },
+        {
+          "code": "1022",
+          "name": "Suluova",
+          "rawName": "SULUOVA"
+        },
+        {
+          "code": "1023",
+          "name": "Taşova",
+          "rawName": "TAŞOVA"
+        }
+      ]
+    },
+    {
+      "plaka": "06",
+      "name": "Ankara",
+      "rawName": "ANKARA",
+      "ilceler": [
+        {
+          "code": "1024",
+          "name": "Akyurt",
+          "rawName": "AKYURT"
+        },
+        {
+          "code": "1025",
+          "name": "Altındağ",
+          "rawName": "ALTINDAĞ"
+        },
+        {
+          "code": "1026",
+          "name": "Ayaş",
+          "rawName": "AYAŞ"
+        },
+        {
+          "code": "1027",
+          "name": "Bala",
+          "rawName": "BALA"
+        },
+        {
+          "code": "1028",
+          "name": "Beypazarı",
+          "rawName": "BEYPAZARI"
+        },
+        {
+          "code": "1029",
+          "name": "Çamlıdere",
+          "rawName": "ÇAMLIDERE"
+        },
+        {
+          "code": "1030",
+          "name": "Çankaya",
+          "rawName": "ÇANKAYA"
+        },
+        {
+          "code": "1031",
+          "name": "Çubuk",
+          "rawName": "ÇUBUK"
+        },
+        {
+          "code": "1032",
+          "name": "Elmadağ",
+          "rawName": "ELMADAĞ"
+        },
+        {
+          "code": "1033",
+          "name": "Etimesgut",
+          "rawName": "ETİMESGUT"
+        },
+        {
+          "code": "1034",
+          "name": "Evren",
+          "rawName": "EVREN"
+        },
+        {
+          "code": "1035",
+          "name": "Gölbaşı",
+          "rawName": "GÖLBAŞI"
+        },
+        {
+          "code": "1036",
+          "name": "Güdül",
+          "rawName": "GÜDÜL"
+        },
+        {
+          "code": "1037",
+          "name": "Haymana",
+          "rawName": "HAYMANA"
+        },
+        {
+          "code": "1039",
+          "name": "Kahramankazan",
+          "rawName": "KAHRAMANKAZAN"
+        },
+        {
+          "code": "1038",
+          "name": "Kalecik",
+          "rawName": "KALECİK"
+        },
+        {
+          "code": "1040",
+          "name": "Keçiören",
+          "rawName": "KEÇİÖREN"
+        },
+        {
+          "code": "1041",
+          "name": "Kızılcahamam",
+          "rawName": "KIZILCAHAMAM"
+        },
+        {
+          "code": "1042",
+          "name": "Mamak",
+          "rawName": "MAMAK"
+        },
+        {
+          "code": "1043",
+          "name": "Nallıhan",
+          "rawName": "NALLIHAN"
+        },
+        {
+          "code": "1044",
+          "name": "Polatlı",
+          "rawName": "POLATLI"
+        },
+        {
+          "code": "7597869",
+          "name": "Pursaklar",
+          "rawName": "PURSAKLAR"
+        },
+        {
+          "code": "1046",
+          "name": "Sincan",
+          "rawName": "SİNCAN"
+        },
+        {
+          "code": "1045",
+          "name": "Şereflikoçhisar",
+          "rawName": "ŞEREFLİKOÇHİSAR"
+        },
+        {
+          "code": "1047",
+          "name": "Yenimahalle",
+          "rawName": "YENİMAHALLE"
+        }
+      ]
+    },
+    {
+      "plaka": "07",
+      "name": "Antalya",
+      "rawName": "ANTALYA",
+      "ilceler": [
+        {
+          "code": "1048",
+          "name": "Akseki",
+          "rawName": "AKSEKİ"
+        },
+        {
+          "code": "7595783",
+          "name": "Aksu",
+          "rawName": "AKSU"
+        },
+        {
+          "code": "1049",
+          "name": "Alanya",
+          "rawName": "ALANYA"
+        },
+        {
+          "code": "1055",
+          "name": "Demre",
+          "rawName": "DEMRE"
+        },
+        {
+          "code": "7595909",
+          "name": "Döşemealtı",
+          "rawName": "DÖŞEMEALTI"
+        },
+        {
+          "code": "1050",
+          "name": "Elmalı",
+          "rawName": "ELMALI"
+        },
+        {
+          "code": "1051",
+          "name": "Finike",
+          "rawName": "FİNİKE"
+        },
+        {
+          "code": "1052",
+          "name": "Gazipaşa",
+          "rawName": "GAZİPAŞA"
+        },
+        {
+          "code": "1053",
+          "name": "Gündoğmuş",
+          "rawName": "GÜNDOĞMUŞ"
+        },
+        {
+          "code": "1054",
+          "name": "İbradı",
+          "rawName": "İBRADI"
+        },
+        {
+          "code": "1056",
+          "name": "Kaş",
+          "rawName": "KAŞ"
+        },
+        {
+          "code": "1057",
+          "name": "Kemer",
+          "rawName": "KEMER"
+        },
+        {
+          "code": "7595991",
+          "name": "Kepez",
+          "rawName": "KEPEZ"
+        },
+        {
+          "code": "7596032",
+          "name": "Konyaaltı",
+          "rawName": "KONYAALTI"
+        },
+        {
+          "code": "1058",
+          "name": "Korkuteli",
+          "rawName": "KORKUTELİ"
+        },
+        {
+          "code": "1059",
+          "name": "Kumluca",
+          "rawName": "KUMLUCA"
+        },
+        {
+          "code": "1060",
+          "name": "Manavgat",
+          "rawName": "MANAVGAT"
+        },
+        {
+          "code": "7596201",
+          "name": "Muratpaşa",
+          "rawName": "MURATPAŞA"
+        },
+        {
+          "code": "1061",
+          "name": "Serik",
+          "rawName": "SERİK"
+        }
+      ]
+    },
+    {
+      "plaka": "75",
+      "name": "Ardahan",
+      "rawName": "ARDAHAN",
+      "ilceler": [
+        {
+          "code": "1787",
+          "name": "Çıldır",
+          "rawName": "ÇILDIR"
+        },
+        {
+          "code": "1788",
+          "name": "Damal",
+          "rawName": "DAMAL"
+        },
+        {
+          "code": "1789",
+          "name": "Göle",
+          "rawName": "GÖLE"
+        },
+        {
+          "code": "1790",
+          "name": "Hanak",
+          "rawName": "HANAK"
+        },
+        {
+          "code": "86174",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1791",
+          "name": "Posof",
+          "rawName": "POSOF"
+        }
+      ]
+    },
+    {
+      "plaka": "08",
+      "name": "Artvin",
+      "rawName": "ARTVİN",
+      "ilceler": [
+        {
+          "code": "1062",
+          "name": "Ardanuç",
+          "rawName": "ARDANUÇ"
+        },
+        {
+          "code": "1063",
+          "name": "Arhavi",
+          "rawName": "ARHAVİ"
+        },
+        {
+          "code": "1064",
+          "name": "Borçka",
+          "rawName": "BORÇKA"
+        },
+        {
+          "code": "1065",
+          "name": "Hopa",
+          "rawName": "HOPA"
+        },
+        {
+          "code": "7713788",
+          "name": "Kemalpaşa",
+          "rawName": "KEMALPAŞA"
+        },
+        {
+          "code": "217",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1066",
+          "name": "Murgul",
+          "rawName": "MURGUL"
+        },
+        {
+          "code": "1067",
+          "name": "Şavşat",
+          "rawName": "ŞAVŞAT"
+        },
+        {
+          "code": "1068",
+          "name": "Yusufeli",
+          "rawName": "YUSUFELİ"
+        }
+      ]
+    },
+    {
+      "plaka": "09",
+      "name": "Aydın",
+      "rawName": "AYDIN",
+      "ilceler": [
+        {
+          "code": "1069",
+          "name": "Bozdoğan",
+          "rawName": "BOZDOĞAN"
+        },
+        {
+          "code": "1070",
+          "name": "Buharkent",
+          "rawName": "BUHARKENT"
+        },
+        {
+          "code": "1071",
+          "name": "Çine",
+          "rawName": "ÇİNE"
+        },
+        {
+          "code": "1072",
+          "name": "Didim",
+          "rawName": "DİDİM"
+        },
+        {
+          "code": "7710125",
+          "name": "Efeler",
+          "rawName": "EFELER"
+        },
+        {
+          "code": "1073",
+          "name": "Germencik",
+          "rawName": "GERMENCİK"
+        },
+        {
+          "code": "1074",
+          "name": "İncirliova",
+          "rawName": "İNCİRLİOVA"
+        },
+        {
+          "code": "1075",
+          "name": "Karacasu",
+          "rawName": "KARACASU"
+        },
+        {
+          "code": "1076",
+          "name": "Karpuzlu",
+          "rawName": "KARPUZLU"
+        },
+        {
+          "code": "1077",
+          "name": "Koçarlı",
+          "rawName": "KOÇARLI"
+        },
+        {
+          "code": "1078",
+          "name": "Köşk",
+          "rawName": "KÖŞK"
+        },
+        {
+          "code": "1079",
+          "name": "Kuşadası",
+          "rawName": "KUŞADASI"
+        },
+        {
+          "code": "1080",
+          "name": "Kuyucak",
+          "rawName": "KUYUCAK"
+        },
+        {
+          "code": "1081",
+          "name": "Nazilli",
+          "rawName": "NAZİLLİ"
+        },
+        {
+          "code": "1082",
+          "name": "Söke",
+          "rawName": "SÖKE"
+        },
+        {
+          "code": "1083",
+          "name": "Sultanhisar",
+          "rawName": "SULTANHİSAR"
+        },
+        {
+          "code": "1084",
+          "name": "Yenipazar",
+          "rawName": "YENİPAZAR"
+        }
+      ]
+    },
+    {
+      "plaka": "10",
+      "name": "Balıkesir",
+      "rawName": "BALIKESİR",
+      "ilceler": [
+        {
+          "code": "7710128",
+          "name": "Altıeylül",
+          "rawName": "ALTIEYLÜL"
+        },
+        {
+          "code": "1085",
+          "name": "Ayvalık",
+          "rawName": "AYVALIK"
+        },
+        {
+          "code": "1086",
+          "name": "Balya",
+          "rawName": "BALYA"
+        },
+        {
+          "code": "1087",
+          "name": "Bandırma",
+          "rawName": "BANDIRMA"
+        },
+        {
+          "code": "1088",
+          "name": "Bigadiç",
+          "rawName": "BİGADİÇ"
+        },
+        {
+          "code": "1089",
+          "name": "Burhaniye",
+          "rawName": "BURHANİYE"
+        },
+        {
+          "code": "1090",
+          "name": "Dursunbey",
+          "rawName": "DURSUNBEY"
+        },
+        {
+          "code": "1091",
+          "name": "Edremit",
+          "rawName": "EDREMİT"
+        },
+        {
+          "code": "1092",
+          "name": "Erdek",
+          "rawName": "ERDEK"
+        },
+        {
+          "code": "1093",
+          "name": "Gömeç",
+          "rawName": "GÖMEÇ"
+        },
+        {
+          "code": "1094",
+          "name": "Gönen",
+          "rawName": "GÖNEN"
+        },
+        {
+          "code": "1095",
+          "name": "Havran",
+          "rawName": "HAVRAN"
+        },
+        {
+          "code": "1096",
+          "name": "İvrindi",
+          "rawName": "İVRİNDİ"
+        },
+        {
+          "code": "7710126",
+          "name": "Karesi",
+          "rawName": "KARESİ"
+        },
+        {
+          "code": "1097",
+          "name": "Kepsut",
+          "rawName": "KEPSUT"
+        },
+        {
+          "code": "1098",
+          "name": "Manyas",
+          "rawName": "MANYAS"
+        },
+        {
+          "code": "1099",
+          "name": "Marmara",
+          "rawName": "MARMARA"
+        },
+        {
+          "code": "1100",
+          "name": "Savaştepe",
+          "rawName": "SAVAŞTEPE"
+        },
+        {
+          "code": "1101",
+          "name": "Sındırgı",
+          "rawName": "SINDIRGI"
+        },
+        {
+          "code": "1102",
+          "name": "Susurluk",
+          "rawName": "SUSURLUK"
+        }
+      ]
+    },
+    {
+      "plaka": "74",
+      "name": "Bartın",
+      "rawName": "BARTIN",
+      "ilceler": [
+        {
+          "code": "1784",
+          "name": "Amasra",
+          "rawName": "AMASRA"
+        },
+        {
+          "code": "1785",
+          "name": "Kurucaşile",
+          "rawName": "KURUCAŞİLE"
+        },
+        {
+          "code": "86155",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1786",
+          "name": "Ulus",
+          "rawName": "ULUS"
+        }
+      ]
+    },
+    {
+      "plaka": "72",
+      "name": "Batman",
+      "rawName": "BATMAN",
+      "ilceler": [
+        {
+          "code": "1773",
+          "name": "Beşiri",
+          "rawName": "BEŞİRİ"
+        },
+        {
+          "code": "1774",
+          "name": "Gercüş",
+          "rawName": "GERCÜŞ"
+        },
+        {
+          "code": "1775",
+          "name": "Hasankeyf",
+          "rawName": "HASANKEYF"
+        },
+        {
+          "code": "1776",
+          "name": "Kozluk",
+          "rawName": "KOZLUK"
+        },
+        {
+          "code": "85681",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1777",
+          "name": "Sason",
+          "rawName": "SASON"
+        }
+      ]
+    },
+    {
+      "plaka": "69",
+      "name": "Bayburt",
+      "rawName": "BAYBURT",
+      "ilceler": [
+        {
+          "code": "1758",
+          "name": "Aydıntepe",
+          "rawName": "AYDINTEPE"
+        },
+        {
+          "code": "1759",
+          "name": "Demirözü",
+          "rawName": "DEMİRÖZÜ"
+        },
+        {
+          "code": "60002",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        }
+      ]
+    },
+    {
+      "plaka": "11",
+      "name": "Bilecik",
+      "rawName": "BİLECİK",
+      "ilceler": [
+        {
+          "code": "1103",
+          "name": "Bozüyük",
+          "rawName": "BOZÜYÜK"
+        },
+        {
+          "code": "1104",
+          "name": "Gölpazarı",
+          "rawName": "GÖLPAZARI"
+        },
+        {
+          "code": "1105",
+          "name": "İnhisar",
+          "rawName": "İNHİSAR"
+        },
+        {
+          "code": "261",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1106",
+          "name": "Osmaneli",
+          "rawName": "OSMANELİ"
+        },
+        {
+          "code": "1107",
+          "name": "Pazaryeri",
+          "rawName": "PAZARYERİ"
+        },
+        {
+          "code": "1108",
+          "name": "Söğüt",
+          "rawName": "SÖĞÜT"
+        },
+        {
+          "code": "1109",
+          "name": "Yenipazar",
+          "rawName": "YENİPAZAR"
+        }
+      ]
+    },
+    {
+      "plaka": "12",
+      "name": "Bingöl",
+      "rawName": "BİNGÖL",
+      "ilceler": [
+        {
+          "code": "1110",
+          "name": "Adaklı",
+          "rawName": "ADAKLI"
+        },
+        {
+          "code": "1111",
+          "name": "Genç",
+          "rawName": "GENÇ"
+        },
+        {
+          "code": "1112",
+          "name": "Karlıova",
+          "rawName": "KARLIOVA"
+        },
+        {
+          "code": "1113",
+          "name": "Kiğı",
+          "rawName": "KİĞI"
+        },
+        {
+          "code": "269",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1114",
+          "name": "Solhan",
+          "rawName": "SOLHAN"
+        },
+        {
+          "code": "1115",
+          "name": "Yayladere",
+          "rawName": "YAYLADERE"
+        },
+        {
+          "code": "1116",
+          "name": "Yedisu",
+          "rawName": "YEDİSU"
+        }
+      ]
+    },
+    {
+      "plaka": "13",
+      "name": "Bitlis",
+      "rawName": "BİTLİS",
+      "ilceler": [
+        {
+          "code": "1117",
+          "name": "Adilcevaz",
+          "rawName": "ADİLCEVAZ"
+        },
+        {
+          "code": "1118",
+          "name": "Ahlat",
+          "rawName": "AHLAT"
+        },
+        {
+          "code": "1119",
+          "name": "Güroymak",
+          "rawName": "GÜROYMAK"
+        },
+        {
+          "code": "1120",
+          "name": "Hizan",
+          "rawName": "HİZAN"
+        },
+        {
+          "code": "277",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1121",
+          "name": "Mutki",
+          "rawName": "MUTKİ"
+        },
+        {
+          "code": "1122",
+          "name": "Tatvan",
+          "rawName": "TATVAN"
+        }
+      ]
+    },
+    {
+      "plaka": "14",
+      "name": "Bolu",
+      "rawName": "BOLU",
+      "ilceler": [
+        {
+          "code": "1123",
+          "name": "Dörtdivan",
+          "rawName": "DÖRTDİVAN"
+        },
+        {
+          "code": "1124",
+          "name": "Gerede",
+          "rawName": "GEREDE"
+        },
+        {
+          "code": "1125",
+          "name": "Göynük",
+          "rawName": "GÖYNÜK"
+        },
+        {
+          "code": "1126",
+          "name": "Kıbrıscık",
+          "rawName": "KIBRISCIK"
+        },
+        {
+          "code": "1127",
+          "name": "Mengen",
+          "rawName": "MENGEN"
+        },
+        {
+          "code": "284",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1128",
+          "name": "Mudurnu",
+          "rawName": "MUDURNU"
+        },
+        {
+          "code": "1129",
+          "name": "Seben",
+          "rawName": "SEBEN"
+        },
+        {
+          "code": "1130",
+          "name": "Yeniçağa",
+          "rawName": "YENİÇAĞA"
+        }
+      ]
+    },
+    {
+      "plaka": "15",
+      "name": "Burdur",
+      "rawName": "BURDUR",
+      "ilceler": [
+        {
+          "code": "1131",
+          "name": "Ağlasun",
+          "rawName": "AĞLASUN"
+        },
+        {
+          "code": "1132",
+          "name": "Altınyayla",
+          "rawName": "ALTINYAYLA"
+        },
+        {
+          "code": "1133",
+          "name": "Bucak",
+          "rawName": "BUCAK"
+        },
+        {
+          "code": "1134",
+          "name": "Çavdır",
+          "rawName": "ÇAVDIR"
+        },
+        {
+          "code": "1135",
+          "name": "Çeltikçi",
+          "rawName": "ÇELTİKÇİ"
+        },
+        {
+          "code": "1136",
+          "name": "Gölhisar",
+          "rawName": "GÖLHİSAR"
+        },
+        {
+          "code": "1137",
+          "name": "Karamanlı",
+          "rawName": "KARAMANLI"
+        },
+        {
+          "code": "1138",
+          "name": "Kemer",
+          "rawName": "KEMER"
+        },
+        {
+          "code": "300",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1139",
+          "name": "Tefenni",
+          "rawName": "TEFENNİ"
+        },
+        {
+          "code": "1140",
+          "name": "Yeşilova",
+          "rawName": "YEŞİLOVA"
+        }
+      ]
+    },
+    {
+      "plaka": "16",
+      "name": "Bursa",
+      "rawName": "BURSA",
+      "ilceler": [
+        {
+          "code": "1141",
+          "name": "Büyükorhan",
+          "rawName": "BÜYÜKORHAN"
+        },
+        {
+          "code": "1142",
+          "name": "Gemlik",
+          "rawName": "GEMLİK"
+        },
+        {
+          "code": "1143",
+          "name": "Gürsu",
+          "rawName": "GÜRSU"
+        },
+        {
+          "code": "1144",
+          "name": "Harmancık",
+          "rawName": "HARMANCIK"
+        },
+        {
+          "code": "1145",
+          "name": "İnegöl",
+          "rawName": "İNEGÖL"
+        },
+        {
+          "code": "1146",
+          "name": "İznik",
+          "rawName": "İZNİK"
+        },
+        {
+          "code": "1147",
+          "name": "Karacabey",
+          "rawName": "KARACABEY"
+        },
+        {
+          "code": "1148",
+          "name": "Keles",
+          "rawName": "KELES"
+        },
+        {
+          "code": "1149",
+          "name": "Kestel",
+          "rawName": "KESTEL"
+        },
+        {
+          "code": "1151",
+          "name": "Mudanya",
+          "rawName": "MUDANYA"
+        },
+        {
+          "code": "1150",
+          "name": "Mustafakemalpaşa",
+          "rawName": "MUSTAFAKEMALPAŞA"
+        },
+        {
+          "code": "1152",
+          "name": "Nilüfer",
+          "rawName": "NİLÜFER"
+        },
+        {
+          "code": "1153",
+          "name": "Orhaneli",
+          "rawName": "ORHANELİ"
+        },
+        {
+          "code": "1154",
+          "name": "Orhangazi",
+          "rawName": "ORHANGAZİ"
+        },
+        {
+          "code": "1155",
+          "name": "Osmangazi",
+          "rawName": "OSMANGAZİ"
+        },
+        {
+          "code": "1156",
+          "name": "Yenişehir",
+          "rawName": "YENİŞEHİR"
+        },
+        {
+          "code": "1157",
+          "name": "Yıldırım",
+          "rawName": "YILDIRIM"
+        }
+      ]
+    },
+    {
+      "plaka": "17",
+      "name": "Çanakkale",
+      "rawName": "ÇANAKKALE",
+      "ilceler": [
+        {
+          "code": "1158",
+          "name": "Ayvacık",
+          "rawName": "AYVACIK"
+        },
+        {
+          "code": "1159",
+          "name": "Bayramiç",
+          "rawName": "BAYRAMİÇ"
+        },
+        {
+          "code": "1160",
+          "name": "Biga",
+          "rawName": "BİGA"
+        },
+        {
+          "code": "1161",
+          "name": "Bozcaada",
+          "rawName": "BOZCAADA"
+        },
+        {
+          "code": "1162",
+          "name": "Çan",
+          "rawName": "ÇAN"
+        },
+        {
+          "code": "1163",
+          "name": "Eceabat",
+          "rawName": "ECEABAT"
+        },
+        {
+          "code": "1164",
+          "name": "Ezine",
+          "rawName": "EZİNE"
+        },
+        {
+          "code": "1165",
+          "name": "Gelibolu",
+          "rawName": "GELİBOLU"
+        },
+        {
+          "code": "1166",
+          "name": "Gökçeada",
+          "rawName": "GÖKÇEADA"
+        },
+        {
+          "code": "1167",
+          "name": "Lapseki",
+          "rawName": "LAPSEKİ"
+        },
+        {
+          "code": "329",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1168",
+          "name": "Yenice",
+          "rawName": "YENİCE"
+        }
+      ]
+    },
+    {
+      "plaka": "18",
+      "name": "Çankırı",
+      "rawName": "ÇANKIRI",
+      "ilceler": [
+        {
+          "code": "1169",
+          "name": "Atkaracalar",
+          "rawName": "ATKARACALAR"
+        },
+        {
+          "code": "1170",
+          "name": "Bayramören",
+          "rawName": "BAYRAMÖREN"
+        },
+        {
+          "code": "1171",
+          "name": "Çerkeş",
+          "rawName": "ÇERKEŞ"
+        },
+        {
+          "code": "1172",
+          "name": "Eldivan",
+          "rawName": "ELDİVAN"
+        },
+        {
+          "code": "1173",
+          "name": "Ilgaz",
+          "rawName": "ILGAZ"
+        },
+        {
+          "code": "1174",
+          "name": "Kızılırmak",
+          "rawName": "KIZILIRMAK"
+        },
+        {
+          "code": "1175",
+          "name": "Korgun",
+          "rawName": "KORGUN"
+        },
+        {
+          "code": "1176",
+          "name": "Kurşunlu",
+          "rawName": "KURŞUNLU"
+        },
+        {
+          "code": "341",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1177",
+          "name": "Orta",
+          "rawName": "ORTA"
+        },
+        {
+          "code": "1178",
+          "name": "Şabanözü",
+          "rawName": "ŞABANÖZÜ"
+        },
+        {
+          "code": "1179",
+          "name": "Yapraklı",
+          "rawName": "YAPRAKLI"
+        }
+      ]
+    },
+    {
+      "plaka": "19",
+      "name": "Çorum",
+      "rawName": "ÇORUM",
+      "ilceler": [
+        {
+          "code": "1180",
+          "name": "Alaca",
+          "rawName": "ALACA"
+        },
+        {
+          "code": "1181",
+          "name": "Bayat",
+          "rawName": "BAYAT"
+        },
+        {
+          "code": "1182",
+          "name": "Boğazkale",
+          "rawName": "BOĞAZKALE"
+        },
+        {
+          "code": "1183",
+          "name": "Dodurga",
+          "rawName": "DODURGA"
+        },
+        {
+          "code": "1184",
+          "name": "İskilip",
+          "rawName": "İSKİLİP"
+        },
+        {
+          "code": "1185",
+          "name": "Kargı",
+          "rawName": "KARGI"
+        },
+        {
+          "code": "1186",
+          "name": "Laçin",
+          "rawName": "LAÇİN"
+        },
+        {
+          "code": "1187",
+          "name": "Mecitözü",
+          "rawName": "MECİTÖZÜ"
+        },
+        {
+          "code": "353",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1188",
+          "name": "Oğuzlar",
+          "rawName": "OĞUZLAR"
+        },
+        {
+          "code": "1189",
+          "name": "Ortaköy",
+          "rawName": "ORTAKÖY"
+        },
+        {
+          "code": "1190",
+          "name": "Osmancık",
+          "rawName": "OSMANCIK"
+        },
+        {
+          "code": "1191",
+          "name": "Sungurlu",
+          "rawName": "SUNGURLU"
+        },
+        {
+          "code": "1192",
+          "name": "Uğurludağ",
+          "rawName": "UĞURLUDAĞ"
+        }
+      ]
+    },
+    {
+      "plaka": "20",
+      "name": "Denizli",
+      "rawName": "DENİZLİ",
+      "ilceler": [
+        {
+          "code": "1193",
+          "name": "Acıpayam",
+          "rawName": "ACIPAYAM"
+        },
+        {
+          "code": "1195",
+          "name": "Babadağ",
+          "rawName": "BABADAĞ"
+        },
+        {
+          "code": "1196",
+          "name": "Baklan",
+          "rawName": "BAKLAN"
+        },
+        {
+          "code": "1197",
+          "name": "Bekilli",
+          "rawName": "BEKİLLİ"
+        },
+        {
+          "code": "1198",
+          "name": "Beyağaç",
+          "rawName": "BEYAĞAÇ"
+        },
+        {
+          "code": "1199",
+          "name": "Bozkurt",
+          "rawName": "BOZKURT"
+        },
+        {
+          "code": "1200",
+          "name": "Buldan",
+          "rawName": "BULDAN"
+        },
+        {
+          "code": "1201",
+          "name": "Çal",
+          "rawName": "ÇAL"
+        },
+        {
+          "code": "1202",
+          "name": "Çameli",
+          "rawName": "ÇAMELİ"
+        },
+        {
+          "code": "1203",
+          "name": "Çardak",
+          "rawName": "ÇARDAK"
+        },
+        {
+          "code": "1204",
+          "name": "Çivril",
+          "rawName": "ÇİVRİL"
+        },
+        {
+          "code": "1205",
+          "name": "Güney",
+          "rawName": "GÜNEY"
+        },
+        {
+          "code": "1206",
+          "name": "Honaz",
+          "rawName": "HONAZ"
+        },
+        {
+          "code": "1207",
+          "name": "Kale",
+          "rawName": "KALE"
+        },
+        {
+          "code": "7710129",
+          "name": "Merkezefendi",
+          "rawName": "MERKEZEFENDİ"
+        },
+        {
+          "code": "1194",
+          "name": "Pamukkale",
+          "rawName": "PAMUKKALE"
+        },
+        {
+          "code": "1208",
+          "name": "Sarayköy",
+          "rawName": "SARAYKÖY"
+        },
+        {
+          "code": "1209",
+          "name": "Serinhisar",
+          "rawName": "SERİNHİSAR"
+        },
+        {
+          "code": "1210",
+          "name": "Tavas",
+          "rawName": "TAVAS"
+        }
+      ]
+    },
+    {
+      "plaka": "21",
+      "name": "Diyarbakır",
+      "rawName": "DİYARBAKIR",
+      "ilceler": [
+        {
+          "code": "7596141",
+          "name": "Bağlar",
+          "rawName": "BAĞLAR"
+        },
+        {
+          "code": "1211",
+          "name": "Bismil",
+          "rawName": "BİSMİL"
+        },
+        {
+          "code": "1212",
+          "name": "Çermik",
+          "rawName": "ÇERMİK"
+        },
+        {
+          "code": "1213",
+          "name": "Çınar",
+          "rawName": "ÇINAR"
+        },
+        {
+          "code": "1214",
+          "name": "Çüngüş",
+          "rawName": "ÇÜNGÜŞ"
+        },
+        {
+          "code": "1215",
+          "name": "Dicle",
+          "rawName": "DİCLE"
+        },
+        {
+          "code": "1216",
+          "name": "Eğil",
+          "rawName": "EĞİL"
+        },
+        {
+          "code": "1217",
+          "name": "Ergani",
+          "rawName": "ERGANİ"
+        },
+        {
+          "code": "1218",
+          "name": "Hani",
+          "rawName": "HANİ"
+        },
+        {
+          "code": "1219",
+          "name": "Hazro",
+          "rawName": "HAZRO"
+        },
+        {
+          "code": "7596211",
+          "name": "Kayapınar",
+          "rawName": "KAYAPINAR"
+        },
+        {
+          "code": "1220",
+          "name": "Kocaköy",
+          "rawName": "KOCAKÖY"
+        },
+        {
+          "code": "1221",
+          "name": "Kulp",
+          "rawName": "KULP"
+        },
+        {
+          "code": "1222",
+          "name": "Lice",
+          "rawName": "LİCE"
+        },
+        {
+          "code": "1223",
+          "name": "Silvan",
+          "rawName": "SİLVAN"
+        },
+        {
+          "code": "7596268",
+          "name": "Sur",
+          "rawName": "SUR"
+        },
+        {
+          "code": "7596261",
+          "name": "Yenişehir",
+          "rawName": "YENİŞEHİR"
+        }
+      ]
+    },
+    {
+      "plaka": "81",
+      "name": "Düzce",
+      "rawName": "DÜZCE",
+      "ilceler": [
+        {
+          "code": "1815",
+          "name": "Akçakoca",
+          "rawName": "AKÇAKOCA"
+        },
+        {
+          "code": "1814",
+          "name": "Cumayeri",
+          "rawName": "CUMAYERİ"
+        },
+        {
+          "code": "1816",
+          "name": "Çilimli",
+          "rawName": "ÇİLİMLİ"
+        },
+        {
+          "code": "1817",
+          "name": "Gölyaka",
+          "rawName": "GÖLYAKA"
+        },
+        {
+          "code": "1818",
+          "name": "Gümüşova",
+          "rawName": "GÜMÜŞOVA"
+        },
+        {
+          "code": "1819",
+          "name": "Kaynaşlı",
+          "rawName": "KAYNAŞLI"
+        },
+        {
+          "code": "651637",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1820",
+          "name": "Yığılca",
+          "rawName": "YIĞILCA"
+        }
+      ]
+    },
+    {
+      "plaka": "22",
+      "name": "Edirne",
+      "rawName": "EDİRNE",
+      "ilceler": [
+        {
+          "code": "1224",
+          "name": "Enez",
+          "rawName": "ENEZ"
+        },
+        {
+          "code": "1225",
+          "name": "Havsa",
+          "rawName": "HAVSA"
+        },
+        {
+          "code": "1226",
+          "name": "İpsala",
+          "rawName": "İPSALA"
+        },
+        {
+          "code": "1227",
+          "name": "Keşan",
+          "rawName": "KEŞAN"
+        },
+        {
+          "code": "1228",
+          "name": "Lalapaşa",
+          "rawName": "LALAPAŞA"
+        },
+        {
+          "code": "1229",
+          "name": "Meriç",
+          "rawName": "MERİÇ"
+        },
+        {
+          "code": "400",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1230",
+          "name": "Süloğlu",
+          "rawName": "SÜLOĞLU"
+        },
+        {
+          "code": "1231",
+          "name": "Uzunköprü",
+          "rawName": "UZUNKÖPRÜ"
+        }
+      ]
+    },
+    {
+      "plaka": "23",
+      "name": "Elazığ",
+      "rawName": "ELAZIĞ",
+      "ilceler": [
+        {
+          "code": "1232",
+          "name": "Ağın",
+          "rawName": "AĞIN"
+        },
+        {
+          "code": "1233",
+          "name": "Alacakaya",
+          "rawName": "ALACAKAYA"
+        },
+        {
+          "code": "1234",
+          "name": "Arıcak",
+          "rawName": "ARICAK"
+        },
+        {
+          "code": "1235",
+          "name": "Baskil",
+          "rawName": "BASKİL"
+        },
+        {
+          "code": "1236",
+          "name": "Karakoçan",
+          "rawName": "KARAKOÇAN"
+        },
+        {
+          "code": "1237",
+          "name": "Keban",
+          "rawName": "KEBAN"
+        },
+        {
+          "code": "1238",
+          "name": "Kovancılar",
+          "rawName": "KOVANCILAR"
+        },
+        {
+          "code": "1239",
+          "name": "Maden",
+          "rawName": "MADEN"
+        },
+        {
+          "code": "409",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1240",
+          "name": "Palu",
+          "rawName": "PALU"
+        },
+        {
+          "code": "1241",
+          "name": "Sivrice",
+          "rawName": "SİVRİCE"
+        }
+      ]
+    },
+    {
+      "plaka": "24",
+      "name": "Erzincan",
+      "rawName": "ERZİNCAN",
+      "ilceler": [
+        {
+          "code": "1242",
+          "name": "Çayırlı",
+          "rawName": "ÇAYIRLI"
+        },
+        {
+          "code": "1243",
+          "name": "İliç",
+          "rawName": "İLİÇ"
+        },
+        {
+          "code": "1244",
+          "name": "Kemah",
+          "rawName": "KEMAH"
+        },
+        {
+          "code": "1245",
+          "name": "Kemaliye",
+          "rawName": "KEMALİYE"
+        },
+        {
+          "code": "420",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1246",
+          "name": "Otlukbeli",
+          "rawName": "OTLUKBELİ"
+        },
+        {
+          "code": "1247",
+          "name": "Refahiye",
+          "rawName": "REFAHİYE"
+        },
+        {
+          "code": "1248",
+          "name": "Tercan",
+          "rawName": "TERCAN"
+        },
+        {
+          "code": "1249",
+          "name": "Üzümlü",
+          "rawName": "ÜZÜMLÜ"
+        }
+      ]
+    },
+    {
+      "plaka": "25",
+      "name": "Erzurum",
+      "rawName": "ERZURUM",
+      "ilceler": [
+        {
+          "code": "1250",
+          "name": "Aşkale",
+          "rawName": "AŞKALE"
+        },
+        {
+          "code": "1254",
+          "name": "Aziziye",
+          "rawName": "AZİZİYE"
+        },
+        {
+          "code": "1251",
+          "name": "Çat",
+          "rawName": "ÇAT"
+        },
+        {
+          "code": "1252",
+          "name": "Hınıs",
+          "rawName": "HINIS"
+        },
+        {
+          "code": "1253",
+          "name": "Horasan",
+          "rawName": "HORASAN"
+        },
+        {
+          "code": "1255",
+          "name": "İspir",
+          "rawName": "İSPİR"
+        },
+        {
+          "code": "1256",
+          "name": "Karaçoban",
+          "rawName": "KARAÇOBAN"
+        },
+        {
+          "code": "1257",
+          "name": "Karayazı",
+          "rawName": "KARAYAZI"
+        },
+        {
+          "code": "1258",
+          "name": "Köprüköy",
+          "rawName": "KÖPRÜKÖY"
+        },
+        {
+          "code": "1259",
+          "name": "Narman",
+          "rawName": "NARMAN"
+        },
+        {
+          "code": "1260",
+          "name": "Oltu",
+          "rawName": "OLTU"
+        },
+        {
+          "code": "1261",
+          "name": "Olur",
+          "rawName": "OLUR"
+        },
+        {
+          "code": "7597483",
+          "name": "Palandöken",
+          "rawName": "PALANDÖKEN"
+        },
+        {
+          "code": "1262",
+          "name": "Pasinler",
+          "rawName": "PASİNLER"
+        },
+        {
+          "code": "1263",
+          "name": "Pazaryolu",
+          "rawName": "PAZARYOLU"
+        },
+        {
+          "code": "1264",
+          "name": "Şenkaya",
+          "rawName": "ŞENKAYA"
+        },
+        {
+          "code": "1265",
+          "name": "Tekman",
+          "rawName": "TEKMAN"
+        },
+        {
+          "code": "1266",
+          "name": "Tortum",
+          "rawName": "TORTUM"
+        },
+        {
+          "code": "1267",
+          "name": "Uzundere",
+          "rawName": "UZUNDERE"
+        },
+        {
+          "code": "7597507",
+          "name": "Yakutiye",
+          "rawName": "YAKUTİYE"
+        }
+      ]
+    },
+    {
+      "plaka": "26",
+      "name": "Eskişehir",
+      "rawName": "ESKİŞEHİR",
+      "ilceler": [
+        {
+          "code": "1268",
+          "name": "Alpu",
+          "rawName": "ALPU"
+        },
+        {
+          "code": "1269",
+          "name": "Beylikova",
+          "rawName": "BEYLİKOVA"
+        },
+        {
+          "code": "1270",
+          "name": "Çifteler",
+          "rawName": "ÇİFTELER"
+        },
+        {
+          "code": "1271",
+          "name": "Günyüzü",
+          "rawName": "GÜNYÜZÜ"
+        },
+        {
+          "code": "1272",
+          "name": "Han",
+          "rawName": "HAN"
+        },
+        {
+          "code": "1273",
+          "name": "İnönü",
+          "rawName": "İNÖNÜ"
+        },
+        {
+          "code": "1274",
+          "name": "Mahmudiye",
+          "rawName": "MAHMUDİYE"
+        },
+        {
+          "code": "1275",
+          "name": "Mihalgazi",
+          "rawName": "MİHALGAZİ"
+        },
+        {
+          "code": "1276",
+          "name": "Mihalıççık",
+          "rawName": "MİHALIÇÇIK"
+        },
+        {
+          "code": "7597532",
+          "name": "Odunpazarı",
+          "rawName": "ODUNPAZARI"
+        },
+        {
+          "code": "1277",
+          "name": "Sarıcakaya",
+          "rawName": "SARICAKAYA"
+        },
+        {
+          "code": "1278",
+          "name": "Seyitgazi",
+          "rawName": "SEYİTGAZİ"
+        },
+        {
+          "code": "1279",
+          "name": "Sivrihisar",
+          "rawName": "SİVRİHİSAR"
+        },
+        {
+          "code": "7601778",
+          "name": "Tepebaşı",
+          "rawName": "TEPEBAŞI"
+        }
+      ]
+    },
+    {
+      "plaka": "27",
+      "name": "Gaziantep",
+      "rawName": "GAZİANTEP",
+      "ilceler": [
+        {
+          "code": "1280",
+          "name": "Araban",
+          "rawName": "ARABAN"
+        },
+        {
+          "code": "1281",
+          "name": "İslahiye",
+          "rawName": "İSLAHİYE"
+        },
+        {
+          "code": "1282",
+          "name": "Karkamış",
+          "rawName": "KARKAMIŞ"
+        },
+        {
+          "code": "1283",
+          "name": "Nizip",
+          "rawName": "NİZİP"
+        },
+        {
+          "code": "1284",
+          "name": "Nurdağı",
+          "rawName": "NURDAĞI"
+        },
+        {
+          "code": "1285",
+          "name": "Oğuzeli",
+          "rawName": "OĞUZELİ"
+        },
+        {
+          "code": "1286",
+          "name": "Şahinbey",
+          "rawName": "ŞAHİNBEY"
+        },
+        {
+          "code": "1287",
+          "name": "Şehitkamil",
+          "rawName": "ŞEHİTKAMİL"
+        },
+        {
+          "code": "1288",
+          "name": "Yavuzeli",
+          "rawName": "YAVUZELİ"
+        }
+      ]
+    },
+    {
+      "plaka": "28",
+      "name": "Giresun",
+      "rawName": "GİRESUN",
+      "ilceler": [
+        {
+          "code": "1289",
+          "name": "Alucra",
+          "rawName": "ALUCRA"
+        },
+        {
+          "code": "1290",
+          "name": "Bulancak",
+          "rawName": "BULANCAK"
+        },
+        {
+          "code": "1291",
+          "name": "Çamoluk",
+          "rawName": "ÇAMOLUK"
+        },
+        {
+          "code": "1292",
+          "name": "Çanakçı",
+          "rawName": "ÇANAKÇI"
+        },
+        {
+          "code": "1293",
+          "name": "Dereli",
+          "rawName": "DERELİ"
+        },
+        {
+          "code": "1294",
+          "name": "Doğankent",
+          "rawName": "DOĞANKENT"
+        },
+        {
+          "code": "1295",
+          "name": "Espiye",
+          "rawName": "ESPİYE"
+        },
+        {
+          "code": "1296",
+          "name": "Eynesil",
+          "rawName": "EYNESİL"
+        },
+        {
+          "code": "1297",
+          "name": "Görele",
+          "rawName": "GÖRELE"
+        },
+        {
+          "code": "1298",
+          "name": "Güce",
+          "rawName": "GÜCE"
+        },
+        {
+          "code": "1299",
+          "name": "Keşap",
+          "rawName": "KEŞAP"
+        },
+        {
+          "code": "471",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1300",
+          "name": "Piraziz",
+          "rawName": "PİRAZİZ"
+        },
+        {
+          "code": "1301",
+          "name": "Şebinkarahisar",
+          "rawName": "ŞEBİNKARAHİSAR"
+        },
+        {
+          "code": "1302",
+          "name": "Tirebolu",
+          "rawName": "TİREBOLU"
+        },
+        {
+          "code": "1303",
+          "name": "Yağlıdere",
+          "rawName": "YAĞLIDERE"
+        }
+      ]
+    },
+    {
+      "plaka": "29",
+      "name": "Gümüşhane",
+      "rawName": "GÜMÜŞHANE",
+      "ilceler": [
+        {
+          "code": "1304",
+          "name": "Kelkit",
+          "rawName": "KELKİT"
+        },
+        {
+          "code": "1305",
+          "name": "Köse",
+          "rawName": "KÖSE"
+        },
+        {
+          "code": "1306",
+          "name": "Kürtün",
+          "rawName": "KÜRTÜN"
+        },
+        {
+          "code": "487",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1307",
+          "name": "Şiran",
+          "rawName": "ŞİRAN"
+        },
+        {
+          "code": "1308",
+          "name": "Torul",
+          "rawName": "TORUL"
+        }
+      ]
+    },
+    {
+      "plaka": "30",
+      "name": "Hakkari",
+      "rawName": "HAKKARİ",
+      "ilceler": [
+        {
+          "code": "1309",
+          "name": "Çukurca",
+          "rawName": "ÇUKURCA"
+        },
+        {
+          "code": "101814452",
+          "name": "Derecik",
+          "rawName": "DERECİK"
+        },
+        {
+          "code": "493",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1310",
+          "name": "Şemdinli",
+          "rawName": "ŞEMDİNLİ"
+        },
+        {
+          "code": "1311",
+          "name": "Yüksekova",
+          "rawName": "YÜKSEKOVA"
+        }
+      ]
+    },
+    {
+      "plaka": "31",
+      "name": "Hatay",
+      "rawName": "HATAY",
+      "ilceler": [
+        {
+          "code": "1312",
+          "name": "Altınözü",
+          "rawName": "ALTINÖZÜ"
+        },
+        {
+          "code": "7710130",
+          "name": "Antakya",
+          "rawName": "ANTAKYA"
+        },
+        {
+          "code": "38952",
+          "name": "Arsuz",
+          "rawName": "ARSUZ"
+        },
+        {
+          "code": "1313",
+          "name": "Belen",
+          "rawName": "BELEN"
+        },
+        {
+          "code": "7710131",
+          "name": "Defne",
+          "rawName": "DEFNE"
+        },
+        {
+          "code": "1314",
+          "name": "Dörtyol",
+          "rawName": "DÖRTYOL"
+        },
+        {
+          "code": "1315",
+          "name": "Erzin",
+          "rawName": "ERZİN"
+        },
+        {
+          "code": "1316",
+          "name": "Hassa",
+          "rawName": "HASSA"
+        },
+        {
+          "code": "1317",
+          "name": "İskenderun",
+          "rawName": "İSKENDERUN"
+        },
+        {
+          "code": "1318",
+          "name": "Kırıkhan",
+          "rawName": "KIRIKHAN"
+        },
+        {
+          "code": "1319",
+          "name": "Kumlu",
+          "rawName": "KUMLU"
+        },
+        {
+          "code": "38939",
+          "name": "Payas",
+          "rawName": "PAYAS"
+        },
+        {
+          "code": "1320",
+          "name": "Reyhanlı",
+          "rawName": "REYHANLI"
+        },
+        {
+          "code": "1321",
+          "name": "Samandağ",
+          "rawName": "SAMANDAĞ"
+        },
+        {
+          "code": "1322",
+          "name": "Yayladağı",
+          "rawName": "YAYLADAĞI"
+        }
+      ]
+    },
+    {
+      "plaka": "76",
+      "name": "Iğdır",
+      "rawName": "IĞDIR",
+      "ilceler": [
+        {
+          "code": "1792",
+          "name": "Aralık",
+          "rawName": "ARALIK"
+        },
+        {
+          "code": "1793",
+          "name": "Karakoyunlu",
+          "rawName": "KARAKOYUNLU"
+        },
+        {
+          "code": "87482",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1794",
+          "name": "Tuzluca",
+          "rawName": "TUZLUCA"
+        }
+      ]
+    },
+    {
+      "plaka": "32",
+      "name": "Isparta",
+      "rawName": "ISPARTA",
+      "ilceler": [
+        {
+          "code": "1826",
+          "name": "Aksu",
+          "rawName": "AKSU"
+        },
+        {
+          "code": "1323",
+          "name": "Atabey",
+          "rawName": "ATABEY"
+        },
+        {
+          "code": "1324",
+          "name": "Eğirdir",
+          "rawName": "EĞİRDİR"
+        },
+        {
+          "code": "1325",
+          "name": "Gelendost",
+          "rawName": "GELENDOST"
+        },
+        {
+          "code": "1326",
+          "name": "Gönen",
+          "rawName": "GÖNEN"
+        },
+        {
+          "code": "1327",
+          "name": "Keçiborlu",
+          "rawName": "KEÇİBORLU"
+        },
+        {
+          "code": "509",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1329",
+          "name": "Senirkent",
+          "rawName": "SENİRKENT"
+        },
+        {
+          "code": "1330",
+          "name": "Sütçüler",
+          "rawName": "SÜTÇÜLER"
+        },
+        {
+          "code": "1328",
+          "name": "Şarkikaraağaç",
+          "rawName": "ŞARKİKARAAĞAÇ"
+        },
+        {
+          "code": "1331",
+          "name": "Uluborlu",
+          "rawName": "ULUBORLU"
+        },
+        {
+          "code": "1332",
+          "name": "Yalvaç",
+          "rawName": "YALVAÇ"
+        },
+        {
+          "code": "1333",
+          "name": "Yenişarbademli",
+          "rawName": "YENİŞARBADEMLİ"
+        }
+      ]
+    },
+    {
+      "plaka": "34",
+      "name": "İstanbul",
+      "rawName": "İSTANBUL",
+      "ilceler": [
+        {
+          "code": "1343",
+          "name": "Adalar",
+          "rawName": "ADALAR"
+        },
+        {
+          "code": "7597625",
+          "name": "Arnavutköy",
+          "rawName": "ARNAVUTKÖY"
+        },
+        {
+          "code": "7597650",
+          "name": "Ataşehir",
+          "rawName": "ATAŞEHİR"
+        },
+        {
+          "code": "1344",
+          "name": "Avcılar",
+          "rawName": "AVCILAR"
+        },
+        {
+          "code": "1345",
+          "name": "Bağcılar",
+          "rawName": "BAĞCILAR"
+        },
+        {
+          "code": "1346",
+          "name": "Bahçelievler",
+          "rawName": "BAHÇELİEVLER"
+        },
+        {
+          "code": "1347",
+          "name": "Bakırköy",
+          "rawName": "BAKIRKÖY"
+        },
+        {
+          "code": "7597652",
+          "name": "Başakşehir",
+          "rawName": "BAŞAKŞEHİR"
+        },
+        {
+          "code": "1348",
+          "name": "Bayrampaşa",
+          "rawName": "BAYRAMPAŞA"
+        },
+        {
+          "code": "1349",
+          "name": "Beşiktaş",
+          "rawName": "BEŞİKTAŞ"
+        },
+        {
+          "code": "1350",
+          "name": "Beykoz",
+          "rawName": "BEYKOZ"
+        },
+        {
+          "code": "7597661",
+          "name": "Beylikdüzü",
+          "rawName": "BEYLİKDÜZÜ"
+        },
+        {
+          "code": "1351",
+          "name": "Beyoğlu",
+          "rawName": "BEYOĞLU"
+        },
+        {
+          "code": "1352",
+          "name": "Büyükçekmece",
+          "rawName": "BÜYÜKÇEKMECE"
+        },
+        {
+          "code": "1353",
+          "name": "Çatalca",
+          "rawName": "ÇATALCA"
+        },
+        {
+          "code": "7597672",
+          "name": "Çekmeköy",
+          "rawName": "ÇEKMEKÖY"
+        },
+        {
+          "code": "1355",
+          "name": "Esenler",
+          "rawName": "ESENLER"
+        },
+        {
+          "code": "7597688",
+          "name": "Esenyurt",
+          "rawName": "ESENYURT"
+        },
+        {
+          "code": "1356",
+          "name": "Eyüpsultan",
+          "rawName": "EYÜPSULTAN"
+        },
+        {
+          "code": "1357",
+          "name": "Fatih",
+          "rawName": "FATİH"
+        },
+        {
+          "code": "1358",
+          "name": "Gaziosmanpaşa",
+          "rawName": "GAZİOSMANPAŞA"
+        },
+        {
+          "code": "1359",
+          "name": "Güngören",
+          "rawName": "GÜNGÖREN"
+        },
+        {
+          "code": "1360",
+          "name": "Kadıköy",
+          "rawName": "KADIKÖY"
+        },
+        {
+          "code": "1361",
+          "name": "Kağıthane",
+          "rawName": "KAĞITHANE"
+        },
+        {
+          "code": "1362",
+          "name": "Kartal",
+          "rawName": "KARTAL"
+        },
+        {
+          "code": "1363",
+          "name": "Küçükçekmece",
+          "rawName": "KÜÇÜKÇEKMECE"
+        },
+        {
+          "code": "1364",
+          "name": "Maltepe",
+          "rawName": "MALTEPE"
+        },
+        {
+          "code": "1365",
+          "name": "Pendik",
+          "rawName": "PENDİK"
+        },
+        {
+          "code": "7597818",
+          "name": "Sancaktepe",
+          "rawName": "SANCAKTEPE"
+        },
+        {
+          "code": "1366",
+          "name": "Sarıyer",
+          "rawName": "SARIYER"
+        },
+        {
+          "code": "1368",
+          "name": "Silivri",
+          "rawName": "SİLİVRİ"
+        },
+        {
+          "code": "1370",
+          "name": "Sultanbeyli",
+          "rawName": "SULTANBEYLİ"
+        },
+        {
+          "code": "7597826",
+          "name": "Sultangazi",
+          "rawName": "SULTANGAZİ"
+        },
+        {
+          "code": "1367",
+          "name": "Şile",
+          "rawName": "ŞİLE"
+        },
+        {
+          "code": "1369",
+          "name": "Şişli",
+          "rawName": "ŞİŞLİ"
+        },
+        {
+          "code": "1371",
+          "name": "Tuzla",
+          "rawName": "TUZLA"
+        },
+        {
+          "code": "1372",
+          "name": "Ümraniye",
+          "rawName": "ÜMRANİYE"
+        },
+        {
+          "code": "1373",
+          "name": "Üsküdar",
+          "rawName": "ÜSKÜDAR"
+        },
+        {
+          "code": "1374",
+          "name": "Zeytinburnu",
+          "rawName": "ZEYTİNBURNU"
+        }
+      ]
+    },
+    {
+      "plaka": "35",
+      "name": "İzmir",
+      "rawName": "İZMİR",
+      "ilceler": [
+        {
+          "code": "1375",
+          "name": "Aliağa",
+          "rawName": "ALİAĞA"
+        },
+        {
+          "code": "1376",
+          "name": "Balçova",
+          "rawName": "BALÇOVA"
+        },
+        {
+          "code": "1377",
+          "name": "Bayındır",
+          "rawName": "BAYINDIR"
+        },
+        {
+          "code": "7597836",
+          "name": "Bayraklı",
+          "rawName": "BAYRAKLI"
+        },
+        {
+          "code": "1378",
+          "name": "Bergama",
+          "rawName": "BERGAMA"
+        },
+        {
+          "code": "1379",
+          "name": "Beydağ",
+          "rawName": "BEYDAĞ"
+        },
+        {
+          "code": "1380",
+          "name": "Bornova",
+          "rawName": "BORNOVA"
+        },
+        {
+          "code": "1381",
+          "name": "Buca",
+          "rawName": "BUCA"
+        },
+        {
+          "code": "1382",
+          "name": "Çeşme",
+          "rawName": "ÇEŞME"
+        },
+        {
+          "code": "1383",
+          "name": "Çiğli",
+          "rawName": "ÇİĞLİ"
+        },
+        {
+          "code": "1384",
+          "name": "Dikili",
+          "rawName": "DİKİLİ"
+        },
+        {
+          "code": "1385",
+          "name": "Foça",
+          "rawName": "FOÇA"
+        },
+        {
+          "code": "1386",
+          "name": "Gaziemir",
+          "rawName": "GAZİEMİR"
+        },
+        {
+          "code": "1387",
+          "name": "Güzelbahçe",
+          "rawName": "GÜZELBAHÇE"
+        },
+        {
+          "code": "7597840",
+          "name": "Karabağlar",
+          "rawName": "KARABAĞLAR"
+        },
+        {
+          "code": "1388",
+          "name": "Karaburun",
+          "rawName": "KARABURUN"
+        },
+        {
+          "code": "1389",
+          "name": "Karşıyaka",
+          "rawName": "KARŞIYAKA"
+        },
+        {
+          "code": "1390",
+          "name": "Kemalpaşa",
+          "rawName": "KEMALPAŞA"
+        },
+        {
+          "code": "1391",
+          "name": "Kınık",
+          "rawName": "KINIK"
+        },
+        {
+          "code": "1392",
+          "name": "Kiraz",
+          "rawName": "KİRAZ"
+        },
+        {
+          "code": "1393",
+          "name": "Konak",
+          "rawName": "KONAK"
+        },
+        {
+          "code": "1394",
+          "name": "Menderes",
+          "rawName": "MENDERES"
+        },
+        {
+          "code": "1395",
+          "name": "Menemen",
+          "rawName": "MENEMEN"
+        },
+        {
+          "code": "1396",
+          "name": "Narlıdere",
+          "rawName": "NARLIDERE"
+        },
+        {
+          "code": "1397",
+          "name": "Ödemiş",
+          "rawName": "ÖDEMİŞ"
+        },
+        {
+          "code": "1398",
+          "name": "Seferihisar",
+          "rawName": "SEFERİHİSAR"
+        },
+        {
+          "code": "1399",
+          "name": "Selçuk",
+          "rawName": "SELÇUK"
+        },
+        {
+          "code": "1400",
+          "name": "Tire",
+          "rawName": "TİRE"
+        },
+        {
+          "code": "1401",
+          "name": "Torbalı",
+          "rawName": "TORBALI"
+        },
+        {
+          "code": "1402",
+          "name": "Urla",
+          "rawName": "URLA"
+        }
+      ]
+    },
+    {
+      "plaka": "46",
+      "name": "Kahramanmaraş",
+      "rawName": "KAHRAMANMARAŞ",
+      "ilceler": [
+        {
+          "code": "1534",
+          "name": "Afşin",
+          "rawName": "AFŞİN"
+        },
+        {
+          "code": "1535",
+          "name": "Andırın",
+          "rawName": "ANDIRIN"
+        },
+        {
+          "code": "1536",
+          "name": "Çağlayancerit",
+          "rawName": "ÇAĞLAYANCERİT"
+        },
+        {
+          "code": "7710134",
+          "name": "Dulkadiroğlu",
+          "rawName": "DULKADİROĞLU"
+        },
+        {
+          "code": "1537",
+          "name": "Ekinözü",
+          "rawName": "EKİNÖZÜ"
+        },
+        {
+          "code": "1538",
+          "name": "Elbistan",
+          "rawName": "ELBİSTAN"
+        },
+        {
+          "code": "1539",
+          "name": "Göksun",
+          "rawName": "GÖKSUN"
+        },
+        {
+          "code": "1540",
+          "name": "Nurhak",
+          "rawName": "NURHAK"
+        },
+        {
+          "code": "7710135",
+          "name": "Onikişubat",
+          "rawName": "ONİKİŞUBAT"
+        },
+        {
+          "code": "1541",
+          "name": "Pazarcık",
+          "rawName": "PAZARCIK"
+        },
+        {
+          "code": "1542",
+          "name": "Türkoğlu",
+          "rawName": "TÜRKOĞLU"
+        }
+      ]
+    },
+    {
+      "plaka": "78",
+      "name": "Karabük",
+      "rawName": "KARABÜK",
+      "ilceler": [
+        {
+          "code": "1800",
+          "name": "Eflani",
+          "rawName": "EFLANİ"
+        },
+        {
+          "code": "1801",
+          "name": "Eskipazar",
+          "rawName": "ESKİPAZAR"
+        },
+        {
+          "code": "87491",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1802",
+          "name": "Ovacık",
+          "rawName": "OVACIK"
+        },
+        {
+          "code": "1803",
+          "name": "Safranbolu",
+          "rawName": "SAFRANBOLU"
+        },
+        {
+          "code": "1804",
+          "name": "Yenice",
+          "rawName": "YENİCE"
+        }
+      ]
+    },
+    {
+      "plaka": "70",
+      "name": "Karaman",
+      "rawName": "KARAMAN",
+      "ilceler": [
+        {
+          "code": "1760",
+          "name": "Ayrancı",
+          "rawName": "AYRANCI"
+        },
+        {
+          "code": "1761",
+          "name": "Başyayla",
+          "rawName": "BAŞYAYLA"
+        },
+        {
+          "code": "1762",
+          "name": "Ermenek",
+          "rawName": "ERMENEK"
+        },
+        {
+          "code": "1763",
+          "name": "Kazımkarabekir",
+          "rawName": "KAZIMKARABEKİR"
+        },
+        {
+          "code": "60042",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1764",
+          "name": "Sarıveliler",
+          "rawName": "SARIVELİLER"
+        }
+      ]
+    },
+    {
+      "plaka": "36",
+      "name": "Kars",
+      "rawName": "KARS",
+      "ilceler": [
+        {
+          "code": "1403",
+          "name": "Akyaka",
+          "rawName": "AKYAKA"
+        },
+        {
+          "code": "1404",
+          "name": "Arpaçay",
+          "rawName": "ARPAÇAY"
+        },
+        {
+          "code": "1405",
+          "name": "Digor",
+          "rawName": "DİGOR"
+        },
+        {
+          "code": "1406",
+          "name": "Kağızman",
+          "rawName": "KAĞIZMAN"
+        },
+        {
+          "code": "594",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1407",
+          "name": "Sarıkamış",
+          "rawName": "SARIKAMIŞ"
+        },
+        {
+          "code": "1408",
+          "name": "Selim",
+          "rawName": "SELİM"
+        },
+        {
+          "code": "1409",
+          "name": "Susuz",
+          "rawName": "SUSUZ"
+        }
+      ]
+    },
+    {
+      "plaka": "37",
+      "name": "Kastamonu",
+      "rawName": "KASTAMONU",
+      "ilceler": [
+        {
+          "code": "1410",
+          "name": "Abana",
+          "rawName": "ABANA"
+        },
+        {
+          "code": "1411",
+          "name": "Ağlı",
+          "rawName": "AĞLI"
+        },
+        {
+          "code": "1412",
+          "name": "Araç",
+          "rawName": "ARAÇ"
+        },
+        {
+          "code": "1413",
+          "name": "Azdavay",
+          "rawName": "AZDAVAY"
+        },
+        {
+          "code": "1414",
+          "name": "Bozkurt",
+          "rawName": "BOZKURT"
+        },
+        {
+          "code": "1416",
+          "name": "Cide",
+          "rawName": "CİDE"
+        },
+        {
+          "code": "1415",
+          "name": "Çatalzeytin",
+          "rawName": "ÇATALZEYTİN"
+        },
+        {
+          "code": "1417",
+          "name": "Daday",
+          "rawName": "DADAY"
+        },
+        {
+          "code": "1418",
+          "name": "Devrekani",
+          "rawName": "DEVREKANİ"
+        },
+        {
+          "code": "1419",
+          "name": "Doğanyurt",
+          "rawName": "DOĞANYURT"
+        },
+        {
+          "code": "1420",
+          "name": "Hanönü",
+          "rawName": "HANÖNÜ"
+        },
+        {
+          "code": "1421",
+          "name": "İhsangazi",
+          "rawName": "İHSANGAZİ"
+        },
+        {
+          "code": "1422",
+          "name": "İnebolu",
+          "rawName": "İNEBOLU"
+        },
+        {
+          "code": "1423",
+          "name": "Küre",
+          "rawName": "KÜRE"
+        },
+        {
+          "code": "602",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1424",
+          "name": "Pınarbaşı",
+          "rawName": "PINARBAŞI"
+        },
+        {
+          "code": "1426",
+          "name": "Seydiler",
+          "rawName": "SEYDİLER"
+        },
+        {
+          "code": "1425",
+          "name": "Şenpazar",
+          "rawName": "ŞENPAZAR"
+        },
+        {
+          "code": "1427",
+          "name": "Taşköprü",
+          "rawName": "TAŞKÖPRÜ"
+        },
+        {
+          "code": "1428",
+          "name": "Tosya",
+          "rawName": "TOSYA"
+        }
+      ]
+    },
+    {
+      "plaka": "38",
+      "name": "Kayseri",
+      "rawName": "KAYSERİ",
+      "ilceler": [
+        {
+          "code": "1429",
+          "name": "Akkışla",
+          "rawName": "AKKIŞLA"
+        },
+        {
+          "code": "1430",
+          "name": "Bünyan",
+          "rawName": "BÜNYAN"
+        },
+        {
+          "code": "1431",
+          "name": "Develi",
+          "rawName": "DEVELİ"
+        },
+        {
+          "code": "1432",
+          "name": "Felahiye",
+          "rawName": "FELAHİYE"
+        },
+        {
+          "code": "1433",
+          "name": "Hacılar",
+          "rawName": "HACILAR"
+        },
+        {
+          "code": "1434",
+          "name": "İncesu",
+          "rawName": "İNCESU"
+        },
+        {
+          "code": "1435",
+          "name": "Kocasinan",
+          "rawName": "KOCASİNAN"
+        },
+        {
+          "code": "1436",
+          "name": "Melikgazi",
+          "rawName": "MELİKGAZİ"
+        },
+        {
+          "code": "1437",
+          "name": "Özvatan",
+          "rawName": "ÖZVATAN"
+        },
+        {
+          "code": "1438",
+          "name": "Pınarbaşı",
+          "rawName": "PINARBAŞI"
+        },
+        {
+          "code": "1439",
+          "name": "Sarıoğlan",
+          "rawName": "SARIOĞLAN"
+        },
+        {
+          "code": "1440",
+          "name": "Sarız",
+          "rawName": "SARIZ"
+        },
+        {
+          "code": "1441",
+          "name": "Talas",
+          "rawName": "TALAS"
+        },
+        {
+          "code": "1442",
+          "name": "Tomarza",
+          "rawName": "TOMARZA"
+        },
+        {
+          "code": "1443",
+          "name": "Yahyalı",
+          "rawName": "YAHYALI"
+        },
+        {
+          "code": "1444",
+          "name": "Yeşilhisar",
+          "rawName": "YEŞİLHİSAR"
+        }
+      ]
+    },
+    {
+      "plaka": "71",
+      "name": "Kırıkkale",
+      "rawName": "KIRIKKALE",
+      "ilceler": [
+        {
+          "code": "1765",
+          "name": "Bahşılı",
+          "rawName": "BAHŞILI"
+        },
+        {
+          "code": "1766",
+          "name": "Balışeyh",
+          "rawName": "BALIŞEYH"
+        },
+        {
+          "code": "1767",
+          "name": "Çelebi",
+          "rawName": "ÇELEBİ"
+        },
+        {
+          "code": "1768",
+          "name": "Delice",
+          "rawName": "DELİCE"
+        },
+        {
+          "code": "1769",
+          "name": "Karakeçili",
+          "rawName": "KARAKEÇİLİ"
+        },
+        {
+          "code": "1770",
+          "name": "Keskin",
+          "rawName": "KESKİN"
+        },
+        {
+          "code": "60230",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1771",
+          "name": "Sulakyurt",
+          "rawName": "SULAKYURT"
+        },
+        {
+          "code": "1772",
+          "name": "Yahşihan",
+          "rawName": "YAHŞİHAN"
+        }
+      ]
+    },
+    {
+      "plaka": "39",
+      "name": "Kırklareli",
+      "rawName": "KIRKLARELİ",
+      "ilceler": [
+        {
+          "code": "1445",
+          "name": "Babaeski",
+          "rawName": "BABAESKİ"
+        },
+        {
+          "code": "1446",
+          "name": "Demirköy",
+          "rawName": "DEMİRKÖY"
+        },
+        {
+          "code": "1447",
+          "name": "Kofçaz",
+          "rawName": "KOFÇAZ"
+        },
+        {
+          "code": "1448",
+          "name": "Lüleburgaz",
+          "rawName": "LÜLEBURGAZ"
+        },
+        {
+          "code": "639",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1449",
+          "name": "Pehlivanköy",
+          "rawName": "PEHLİVANKÖY"
+        },
+        {
+          "code": "1450",
+          "name": "Pınarhisar",
+          "rawName": "PINARHİSAR"
+        },
+        {
+          "code": "1451",
+          "name": "Vize",
+          "rawName": "VİZE"
+        }
+      ]
+    },
+    {
+      "plaka": "40",
+      "name": "Kırşehir",
+      "rawName": "KIRŞEHİR",
+      "ilceler": [
+        {
+          "code": "1452",
+          "name": "Akçakent",
+          "rawName": "AKÇAKENT"
+        },
+        {
+          "code": "1453",
+          "name": "Akpınar",
+          "rawName": "AKPINAR"
+        },
+        {
+          "code": "1454",
+          "name": "Boztepe",
+          "rawName": "BOZTEPE"
+        },
+        {
+          "code": "1455",
+          "name": "Çiçekdağı",
+          "rawName": "ÇİÇEKDAĞI"
+        },
+        {
+          "code": "1456",
+          "name": "Kaman",
+          "rawName": "KAMAN"
+        },
+        {
+          "code": "647",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1457",
+          "name": "Mucur",
+          "rawName": "MUCUR"
+        }
+      ]
+    },
+    {
+      "plaka": "79",
+      "name": "Kilis",
+      "rawName": "KİLİS",
+      "ilceler": [
+        {
+          "code": "1805",
+          "name": "Elbeyli",
+          "rawName": "ELBEYLİ"
+        },
+        {
+          "code": "87496",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1806",
+          "name": "Musabeyli",
+          "rawName": "MUSABEYLİ"
+        },
+        {
+          "code": "1807",
+          "name": "Polateli",
+          "rawName": "POLATELİ"
+        }
+      ]
+    },
+    {
+      "plaka": "41",
+      "name": "Kocaeli",
+      "rawName": "KOCAELİ",
+      "ilceler": [
+        {
+          "code": "7597863",
+          "name": "Başiskele",
+          "rawName": "BAŞİSKELE"
+        },
+        {
+          "code": "7598014",
+          "name": "Çayırova",
+          "rawName": "ÇAYIROVA"
+        },
+        {
+          "code": "7598010",
+          "name": "Darıca",
+          "rawName": "DARICA"
+        },
+        {
+          "code": "1821",
+          "name": "Derince",
+          "rawName": "DERİNCE"
+        },
+        {
+          "code": "7598066",
+          "name": "Dilovası",
+          "rawName": "DİLOVASI"
+        },
+        {
+          "code": "1458",
+          "name": "Gebze",
+          "rawName": "GEBZE"
+        },
+        {
+          "code": "1459",
+          "name": "Gölcük",
+          "rawName": "GÖLCÜK"
+        },
+        {
+          "code": "7598104",
+          "name": "İzmit",
+          "rawName": "İZMİT"
+        },
+        {
+          "code": "1460",
+          "name": "Kandıra",
+          "rawName": "KANDIRA"
+        },
+        {
+          "code": "1461",
+          "name": "Karamürsel",
+          "rawName": "KARAMÜRSEL"
+        },
+        {
+          "code": "7598357",
+          "name": "Kartepe",
+          "rawName": "KARTEPE"
+        },
+        {
+          "code": "1462",
+          "name": "Körfez",
+          "rawName": "KÖRFEZ"
+        }
+      ]
+    },
+    {
+      "plaka": "42",
+      "name": "Konya",
+      "rawName": "KONYA",
+      "ilceler": [
+        {
+          "code": "1463",
+          "name": "Ahırlı",
+          "rawName": "AHIRLI"
+        },
+        {
+          "code": "1464",
+          "name": "Akören",
+          "rawName": "AKÖREN"
+        },
+        {
+          "code": "1465",
+          "name": "Akşehir",
+          "rawName": "AKŞEHİR"
+        },
+        {
+          "code": "1466",
+          "name": "Altınekin",
+          "rawName": "ALTINEKİN"
+        },
+        {
+          "code": "1467",
+          "name": "Beyşehir",
+          "rawName": "BEYŞEHİR"
+        },
+        {
+          "code": "1468",
+          "name": "Bozkır",
+          "rawName": "BOZKIR"
+        },
+        {
+          "code": "1470",
+          "name": "Cihanbeyli",
+          "rawName": "CİHANBEYLİ"
+        },
+        {
+          "code": "1469",
+          "name": "Çeltik",
+          "rawName": "ÇELTİK"
+        },
+        {
+          "code": "1471",
+          "name": "Çumra",
+          "rawName": "ÇUMRA"
+        },
+        {
+          "code": "1472",
+          "name": "Derbent",
+          "rawName": "DERBENT"
+        },
+        {
+          "code": "1473",
+          "name": "Derebucak",
+          "rawName": "DEREBUCAK"
+        },
+        {
+          "code": "1474",
+          "name": "Doğanhisar",
+          "rawName": "DOĞANHİSAR"
+        },
+        {
+          "code": "1475",
+          "name": "Emirgazi",
+          "rawName": "EMİRGAZİ"
+        },
+        {
+          "code": "1476",
+          "name": "Ereğli",
+          "rawName": "EREĞLİ"
+        },
+        {
+          "code": "1477",
+          "name": "Güneysınır",
+          "rawName": "GÜNEYSINIR"
+        },
+        {
+          "code": "1478",
+          "name": "Hadim",
+          "rawName": "HADİM"
+        },
+        {
+          "code": "1479",
+          "name": "Halkapınar",
+          "rawName": "HALKAPINAR"
+        },
+        {
+          "code": "1480",
+          "name": "Hüyük",
+          "rawName": "HÜYÜK"
+        },
+        {
+          "code": "1481",
+          "name": "Ilgın",
+          "rawName": "ILGIN"
+        },
+        {
+          "code": "1482",
+          "name": "Kadınhanı",
+          "rawName": "KADINHANI"
+        },
+        {
+          "code": "1483",
+          "name": "Karapınar",
+          "rawName": "KARAPINAR"
+        },
+        {
+          "code": "1484",
+          "name": "Karatay",
+          "rawName": "KARATAY"
+        },
+        {
+          "code": "1485",
+          "name": "Kulu",
+          "rawName": "KULU"
+        },
+        {
+          "code": "1486",
+          "name": "Meram",
+          "rawName": "MERAM"
+        },
+        {
+          "code": "1487",
+          "name": "Sarayönü",
+          "rawName": "SARAYÖNÜ"
+        },
+        {
+          "code": "1488",
+          "name": "Selçuklu",
+          "rawName": "SELÇUKLU"
+        },
+        {
+          "code": "1489",
+          "name": "Seydişehir",
+          "rawName": "SEYDİŞEHİR"
+        },
+        {
+          "code": "1490",
+          "name": "Taşkent",
+          "rawName": "TAŞKENT"
+        },
+        {
+          "code": "1491",
+          "name": "Tuzlukçu",
+          "rawName": "TUZLUKÇU"
+        },
+        {
+          "code": "1492",
+          "name": "Yalıhüyük",
+          "rawName": "YALIHÜYÜK"
+        },
+        {
+          "code": "1493",
+          "name": "Yunak",
+          "rawName": "YUNAK"
+        }
+      ]
+    },
+    {
+      "plaka": "43",
+      "name": "Kütahya",
+      "rawName": "KÜTAHYA",
+      "ilceler": [
+        {
+          "code": "1494",
+          "name": "Altıntaş",
+          "rawName": "ALTINTAŞ"
+        },
+        {
+          "code": "1495",
+          "name": "Aslanapa",
+          "rawName": "ASLANAPA"
+        },
+        {
+          "code": "1496",
+          "name": "Çavdarhisar",
+          "rawName": "ÇAVDARHİSAR"
+        },
+        {
+          "code": "1497",
+          "name": "Domaniç",
+          "rawName": "DOMANİÇ"
+        },
+        {
+          "code": "1498",
+          "name": "Dumlupınar",
+          "rawName": "DUMLUPINAR"
+        },
+        {
+          "code": "1499",
+          "name": "Emet",
+          "rawName": "EMET"
+        },
+        {
+          "code": "1500",
+          "name": "Gediz",
+          "rawName": "GEDİZ"
+        },
+        {
+          "code": "1501",
+          "name": "Hisarcık",
+          "rawName": "HİSARCIK"
+        },
+        {
+          "code": "692",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1502",
+          "name": "Pazarlar",
+          "rawName": "PAZARLAR"
+        },
+        {
+          "code": "1504",
+          "name": "Simav",
+          "rawName": "SİMAV"
+        },
+        {
+          "code": "1503",
+          "name": "Şaphane",
+          "rawName": "ŞAPHANE"
+        },
+        {
+          "code": "1505",
+          "name": "Tavşanlı",
+          "rawName": "TAVŞANLI"
+        }
+      ]
+    },
+    {
+      "plaka": "44",
+      "name": "Malatya",
+      "rawName": "MALATYA",
+      "ilceler": [
+        {
+          "code": "1506",
+          "name": "Akçadağ",
+          "rawName": "AKÇADAĞ"
+        },
+        {
+          "code": "1507",
+          "name": "Arapgir",
+          "rawName": "ARAPGİR"
+        },
+        {
+          "code": "1508",
+          "name": "Arguvan",
+          "rawName": "ARGUVAN"
+        },
+        {
+          "code": "1509",
+          "name": "Battalgazi",
+          "rawName": "BATTALGAZİ"
+        },
+        {
+          "code": "1510",
+          "name": "Darende",
+          "rawName": "DARENDE"
+        },
+        {
+          "code": "1511",
+          "name": "Doğanşehir",
+          "rawName": "DOĞANŞEHİR"
+        },
+        {
+          "code": "1512",
+          "name": "Doğanyol",
+          "rawName": "DOĞANYOL"
+        },
+        {
+          "code": "1513",
+          "name": "Hekimhan",
+          "rawName": "HEKİMHAN"
+        },
+        {
+          "code": "1514",
+          "name": "Kale",
+          "rawName": "KALE"
+        },
+        {
+          "code": "1515",
+          "name": "Kuluncak",
+          "rawName": "KULUNCAK"
+        },
+        {
+          "code": "1516",
+          "name": "Pütürge",
+          "rawName": "PÜTÜRGE"
+        },
+        {
+          "code": "1517",
+          "name": "Yazıhan",
+          "rawName": "YAZIHAN"
+        },
+        {
+          "code": "1518",
+          "name": "Yeşilyurt",
+          "rawName": "YEŞİLYURT"
+        }
+      ]
+    },
+    {
+      "plaka": "45",
+      "name": "Manisa",
+      "rawName": "MANİSA",
+      "ilceler": [
+        {
+          "code": "1519",
+          "name": "Ahmetli",
+          "rawName": "AHMETLİ"
+        },
+        {
+          "code": "1520",
+          "name": "Akhisar",
+          "rawName": "AKHİSAR"
+        },
+        {
+          "code": "1521",
+          "name": "Alaşehir",
+          "rawName": "ALAŞEHİR"
+        },
+        {
+          "code": "1522",
+          "name": "Demirci",
+          "rawName": "DEMİRCİ"
+        },
+        {
+          "code": "1523",
+          "name": "Gölmarmara",
+          "rawName": "GÖLMARMARA"
+        },
+        {
+          "code": "1524",
+          "name": "Gördes",
+          "rawName": "GÖRDES"
+        },
+        {
+          "code": "1525",
+          "name": "Kırkağaç",
+          "rawName": "KIRKAĞAÇ"
+        },
+        {
+          "code": "1526",
+          "name": "Köprübaşı",
+          "rawName": "KÖPRÜBAŞI"
+        },
+        {
+          "code": "1527",
+          "name": "Kula",
+          "rawName": "KULA"
+        },
+        {
+          "code": "1528",
+          "name": "Salihli",
+          "rawName": "SALİHLİ"
+        },
+        {
+          "code": "1529",
+          "name": "Sarıgöl",
+          "rawName": "SARIGÖL"
+        },
+        {
+          "code": "1530",
+          "name": "Saruhanlı",
+          "rawName": "SARUHANLI"
+        },
+        {
+          "code": "1531",
+          "name": "Selendi",
+          "rawName": "SELENDİ"
+        },
+        {
+          "code": "1532",
+          "name": "Soma",
+          "rawName": "SOMA"
+        },
+        {
+          "code": "7710132",
+          "name": "Şehzadeler",
+          "rawName": "ŞEHZADELER"
+        },
+        {
+          "code": "1533",
+          "name": "Turgutlu",
+          "rawName": "TURGUTLU"
+        },
+        {
+          "code": "7710150",
+          "name": "Yunusemre",
+          "rawName": "YUNUSEMRE"
+        }
+      ]
+    },
+    {
+      "plaka": "47",
+      "name": "Mardin",
+      "rawName": "MARDİN",
+      "ilceler": [
+        {
+          "code": "7710136",
+          "name": "Artuklu",
+          "rawName": "ARTUKLU"
+        },
+        {
+          "code": "1543",
+          "name": "Dargeçit",
+          "rawName": "DARGEÇİT"
+        },
+        {
+          "code": "1544",
+          "name": "Derik",
+          "rawName": "DERİK"
+        },
+        {
+          "code": "1545",
+          "name": "Kızıltepe",
+          "rawName": "KIZILTEPE"
+        },
+        {
+          "code": "1546",
+          "name": "Mazıdağı",
+          "rawName": "MAZIDAĞI"
+        },
+        {
+          "code": "1547",
+          "name": "Midyat",
+          "rawName": "MİDYAT"
+        },
+        {
+          "code": "1548",
+          "name": "Nusaybin",
+          "rawName": "NUSAYBİN"
+        },
+        {
+          "code": "1549",
+          "name": "Ömerli",
+          "rawName": "ÖMERLİ"
+        },
+        {
+          "code": "1550",
+          "name": "Savur",
+          "rawName": "SAVUR"
+        },
+        {
+          "code": "1551",
+          "name": "Yeşilli",
+          "rawName": "YEŞİLLİ"
+        }
+      ]
+    },
+    {
+      "plaka": "33",
+      "name": "Mersin",
+      "rawName": "MERSİN",
+      "ilceler": [
+        {
+          "code": "7598432",
+          "name": "Akdeniz",
+          "rawName": "AKDENİZ"
+        },
+        {
+          "code": "1334",
+          "name": "Anamur",
+          "rawName": "ANAMUR"
+        },
+        {
+          "code": "1335",
+          "name": "Aydıncık",
+          "rawName": "AYDINCIK"
+        },
+        {
+          "code": "1336",
+          "name": "Bozyazı",
+          "rawName": "BOZYAZI"
+        },
+        {
+          "code": "1337",
+          "name": "Çamlıyayla",
+          "rawName": "ÇAMLIYAYLA"
+        },
+        {
+          "code": "1338",
+          "name": "Erdemli",
+          "rawName": "ERDEMLİ"
+        },
+        {
+          "code": "1339",
+          "name": "Gülnar",
+          "rawName": "GÜLNAR"
+        },
+        {
+          "code": "7598494",
+          "name": "Mezitli",
+          "rawName": "MEZİTLİ"
+        },
+        {
+          "code": "1340",
+          "name": "Mut",
+          "rawName": "MUT"
+        },
+        {
+          "code": "1341",
+          "name": "Silifke",
+          "rawName": "SİLİFKE"
+        },
+        {
+          "code": "1342",
+          "name": "Tarsus",
+          "rawName": "TARSUS"
+        },
+        {
+          "code": "7601331",
+          "name": "Toroslar",
+          "rawName": "TOROSLAR"
+        },
+        {
+          "code": "7601774",
+          "name": "Yenişehir",
+          "rawName": "YENİŞEHİR"
+        }
+      ]
+    },
+    {
+      "plaka": "48",
+      "name": "Muğla",
+      "rawName": "MUĞLA",
+      "ilceler": [
+        {
+          "code": "1552",
+          "name": "Bodrum",
+          "rawName": "BODRUM"
+        },
+        {
+          "code": "1553",
+          "name": "Dalaman",
+          "rawName": "DALAMAN"
+        },
+        {
+          "code": "1554",
+          "name": "Datça",
+          "rawName": "DATÇA"
+        },
+        {
+          "code": "1555",
+          "name": "Fethiye",
+          "rawName": "FETHİYE"
+        },
+        {
+          "code": "1556",
+          "name": "Kavaklıdere",
+          "rawName": "KAVAKLIDERE"
+        },
+        {
+          "code": "1557",
+          "name": "Köyceğiz",
+          "rawName": "KÖYCEĞİZ"
+        },
+        {
+          "code": "1558",
+          "name": "Marmaris",
+          "rawName": "MARMARİS"
+        },
+        {
+          "code": "7710137",
+          "name": "Menteşe",
+          "rawName": "MENTEŞE"
+        },
+        {
+          "code": "1559",
+          "name": "Milas",
+          "rawName": "MİLAS"
+        },
+        {
+          "code": "1560",
+          "name": "Ortaca",
+          "rawName": "ORTACA"
+        },
+        {
+          "code": "39881",
+          "name": "Seydikemer",
+          "rawName": "SEYDİKEMER"
+        },
+        {
+          "code": "1561",
+          "name": "Ula",
+          "rawName": "ULA"
+        },
+        {
+          "code": "1562",
+          "name": "Yatağan",
+          "rawName": "YATAĞAN"
+        }
+      ]
+    },
+    {
+      "plaka": "49",
+      "name": "Muş",
+      "rawName": "MUŞ",
+      "ilceler": [
+        {
+          "code": "1563",
+          "name": "Bulanık",
+          "rawName": "BULANIK"
+        },
+        {
+          "code": "1564",
+          "name": "Hasköy",
+          "rawName": "HASKÖY"
+        },
+        {
+          "code": "1565",
+          "name": "Korkut",
+          "rawName": "KORKUT"
+        },
+        {
+          "code": "1566",
+          "name": "Malazgirt",
+          "rawName": "MALAZGİRT"
+        },
+        {
+          "code": "767",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1567",
+          "name": "Varto",
+          "rawName": "VARTO"
+        }
+      ]
+    },
+    {
+      "plaka": "50",
+      "name": "Nevşehir",
+      "rawName": "NEVŞEHİR",
+      "ilceler": [
+        {
+          "code": "1568",
+          "name": "Acıgöl",
+          "rawName": "ACIGÖL"
+        },
+        {
+          "code": "1569",
+          "name": "Avanos",
+          "rawName": "AVANOS"
+        },
+        {
+          "code": "1570",
+          "name": "Derinkuyu",
+          "rawName": "DERİNKUYU"
+        },
+        {
+          "code": "1571",
+          "name": "Gülşehir",
+          "rawName": "GÜLŞEHİR"
+        },
+        {
+          "code": "1572",
+          "name": "Hacıbektaş",
+          "rawName": "HACIBEKTAŞ"
+        },
+        {
+          "code": "1573",
+          "name": "Kozaklı",
+          "rawName": "KOZAKLI"
+        },
+        {
+          "code": "773",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1574",
+          "name": "Ürgüp",
+          "rawName": "ÜRGÜP"
+        }
+      ]
+    },
+    {
+      "plaka": "51",
+      "name": "Niğde",
+      "rawName": "NİĞDE",
+      "ilceler": [
+        {
+          "code": "1575",
+          "name": "Altunhisar",
+          "rawName": "ALTUNHİSAR"
+        },
+        {
+          "code": "1576",
+          "name": "Bor",
+          "rawName": "BOR"
+        },
+        {
+          "code": "1577",
+          "name": "Çamardı",
+          "rawName": "ÇAMARDI"
+        },
+        {
+          "code": "1578",
+          "name": "Çiftlik",
+          "rawName": "ÇİFTLİK"
+        },
+        {
+          "code": "781",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1579",
+          "name": "Ulukışla",
+          "rawName": "ULUKIŞLA"
+        }
+      ]
+    },
+    {
+      "plaka": "52",
+      "name": "Ordu",
+      "rawName": "ORDU",
+      "ilceler": [
+        {
+          "code": "1580",
+          "name": "Akkuş",
+          "rawName": "AKKUŞ"
+        },
+        {
+          "code": "7710243",
+          "name": "Altınordu",
+          "rawName": "ALTINORDU"
+        },
+        {
+          "code": "1581",
+          "name": "Aybastı",
+          "rawName": "AYBASTI"
+        },
+        {
+          "code": "1582",
+          "name": "Çamaş",
+          "rawName": "ÇAMAŞ"
+        },
+        {
+          "code": "1583",
+          "name": "Çatalpınar",
+          "rawName": "ÇATALPINAR"
+        },
+        {
+          "code": "1584",
+          "name": "Çaybaşı",
+          "rawName": "ÇAYBAŞI"
+        },
+        {
+          "code": "1585",
+          "name": "Fatsa",
+          "rawName": "FATSA"
+        },
+        {
+          "code": "1586",
+          "name": "Gölköy",
+          "rawName": "GÖLKÖY"
+        },
+        {
+          "code": "1587",
+          "name": "Gülyalı",
+          "rawName": "GÜLYALI"
+        },
+        {
+          "code": "1588",
+          "name": "Gürgentepe",
+          "rawName": "GÜRGENTEPE"
+        },
+        {
+          "code": "1589",
+          "name": "İkizce",
+          "rawName": "İKİZCE"
+        },
+        {
+          "code": "1590",
+          "name": "Kabadüz",
+          "rawName": "KABADÜZ"
+        },
+        {
+          "code": "1591",
+          "name": "Kabataş",
+          "rawName": "KABATAŞ"
+        },
+        {
+          "code": "1592",
+          "name": "Korgan",
+          "rawName": "KORGAN"
+        },
+        {
+          "code": "1593",
+          "name": "Kumru",
+          "rawName": "KUMRU"
+        },
+        {
+          "code": "1594",
+          "name": "Mesudiye",
+          "rawName": "MESUDİYE"
+        },
+        {
+          "code": "1595",
+          "name": "Perşembe",
+          "rawName": "PERŞEMBE"
+        },
+        {
+          "code": "1596",
+          "name": "Ulubey",
+          "rawName": "ULUBEY"
+        },
+        {
+          "code": "1597",
+          "name": "Ünye",
+          "rawName": "ÜNYE"
+        }
+      ]
+    },
+    {
+      "plaka": "80",
+      "name": "Osmaniye",
+      "rawName": "OSMANİYE",
+      "ilceler": [
+        {
+          "code": "1808",
+          "name": "Bahçe",
+          "rawName": "BAHÇE"
+        },
+        {
+          "code": "1809",
+          "name": "Düziçi",
+          "rawName": "DÜZİÇİ"
+        },
+        {
+          "code": "1810",
+          "name": "Hasanbeyli",
+          "rawName": "HASANBEYLİ"
+        },
+        {
+          "code": "1811",
+          "name": "Kadirli",
+          "rawName": "KADİRLİ"
+        },
+        {
+          "code": "87498",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1812",
+          "name": "Sumbas",
+          "rawName": "SUMBAS"
+        },
+        {
+          "code": "1813",
+          "name": "Toprakkale",
+          "rawName": "TOPRAKKALE"
+        }
+      ]
+    },
+    {
+      "plaka": "53",
+      "name": "Rize",
+      "rawName": "RİZE",
+      "ilceler": [
+        {
+          "code": "1598",
+          "name": "Ardeşen",
+          "rawName": "ARDEŞEN"
+        },
+        {
+          "code": "1599",
+          "name": "Çamlıhemşin",
+          "rawName": "ÇAMLIHEMŞİN"
+        },
+        {
+          "code": "1600",
+          "name": "Çayeli",
+          "rawName": "ÇAYELİ"
+        },
+        {
+          "code": "1601",
+          "name": "Derepazarı",
+          "rawName": "DEREPAZARI"
+        },
+        {
+          "code": "1602",
+          "name": "Fındıklı",
+          "rawName": "FINDIKLI"
+        },
+        {
+          "code": "1603",
+          "name": "Güneysu",
+          "rawName": "GÜNEYSU"
+        },
+        {
+          "code": "1604",
+          "name": "Hemşin",
+          "rawName": "HEMŞİN"
+        },
+        {
+          "code": "1605",
+          "name": "İkizdere",
+          "rawName": "İKİZDERE"
+        },
+        {
+          "code": "1606",
+          "name": "İyidere",
+          "rawName": "İYİDERE"
+        },
+        {
+          "code": "1607",
+          "name": "Kalkandere",
+          "rawName": "KALKANDERE"
+        },
+        {
+          "code": "806",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1608",
+          "name": "Pazar",
+          "rawName": "PAZAR"
+        }
+      ]
+    },
+    {
+      "plaka": "54",
+      "name": "Sakarya",
+      "rawName": "SAKARYA",
+      "ilceler": [
+        {
+          "code": "7601475",
+          "name": "Adapazarı",
+          "rawName": "ADAPAZARI"
+        },
+        {
+          "code": "1609",
+          "name": "Akyazı",
+          "rawName": "AKYAZI"
+        },
+        {
+          "code": "7601477",
+          "name": "Arifiye",
+          "rawName": "ARİFİYE"
+        },
+        {
+          "code": "7601479",
+          "name": "Erenler",
+          "rawName": "ERENLER"
+        },
+        {
+          "code": "1610",
+          "name": "Ferizli",
+          "rawName": "FERİZLİ"
+        },
+        {
+          "code": "1611",
+          "name": "Geyve",
+          "rawName": "GEYVE"
+        },
+        {
+          "code": "1612",
+          "name": "Hendek",
+          "rawName": "HENDEK"
+        },
+        {
+          "code": "1613",
+          "name": "Karapürçek",
+          "rawName": "KARAPÜRÇEK"
+        },
+        {
+          "code": "1614",
+          "name": "Karasu",
+          "rawName": "KARASU"
+        },
+        {
+          "code": "1615",
+          "name": "Kaynarca",
+          "rawName": "KAYNARCA"
+        },
+        {
+          "code": "1616",
+          "name": "Kocaali",
+          "rawName": "KOCAALİ"
+        },
+        {
+          "code": "1617",
+          "name": "Pamukova",
+          "rawName": "PAMUKOVA"
+        },
+        {
+          "code": "1618",
+          "name": "Sapanca",
+          "rawName": "SAPANCA"
+        },
+        {
+          "code": "7601482",
+          "name": "Serdivan",
+          "rawName": "SERDİVAN"
+        },
+        {
+          "code": "1619",
+          "name": "Söğütlü",
+          "rawName": "SÖĞÜTLÜ"
+        },
+        {
+          "code": "1620",
+          "name": "Taraklı",
+          "rawName": "TARAKLI"
+        }
+      ]
+    },
+    {
+      "plaka": "55",
+      "name": "Samsun",
+      "rawName": "SAMSUN",
+      "ilceler": [
+        {
+          "code": "1621",
+          "name": "19 Mayıs",
+          "rawName": "19 MAYIS"
+        },
+        {
+          "code": "1622",
+          "name": "Alaçam",
+          "rawName": "ALAÇAM"
+        },
+        {
+          "code": "1623",
+          "name": "Asarcık",
+          "rawName": "ASARCIK"
+        },
+        {
+          "code": "7601718",
+          "name": "Atakum",
+          "rawName": "ATAKUM"
+        },
+        {
+          "code": "1624",
+          "name": "Ayvacık",
+          "rawName": "AYVACIK"
+        },
+        {
+          "code": "1625",
+          "name": "Bafra",
+          "rawName": "BAFRA"
+        },
+        {
+          "code": "7601720",
+          "name": "Canik",
+          "rawName": "CANİK"
+        },
+        {
+          "code": "1626",
+          "name": "Çarşamba",
+          "rawName": "ÇARŞAMBA"
+        },
+        {
+          "code": "1627",
+          "name": "Havza",
+          "rawName": "HAVZA"
+        },
+        {
+          "code": "7601722",
+          "name": "İlkadım",
+          "rawName": "İLKADIM"
+        },
+        {
+          "code": "1628",
+          "name": "Kavak",
+          "rawName": "KAVAK"
+        },
+        {
+          "code": "1629",
+          "name": "Ladik",
+          "rawName": "LADİK"
+        },
+        {
+          "code": "1630",
+          "name": "Salıpazarı",
+          "rawName": "SALIPAZARI"
+        },
+        {
+          "code": "1631",
+          "name": "Tekkeköy",
+          "rawName": "TEKKEKÖY"
+        },
+        {
+          "code": "1632",
+          "name": "Terme",
+          "rawName": "TERME"
+        },
+        {
+          "code": "1633",
+          "name": "Vezirköprü",
+          "rawName": "VEZİRKÖPRÜ"
+        },
+        {
+          "code": "1634",
+          "name": "Yakakent",
+          "rawName": "YAKAKENT"
+        }
+      ]
+    },
+    {
+      "plaka": "56",
+      "name": "Siirt",
+      "rawName": "SİİRT",
+      "ilceler": [
+        {
+          "code": "1636",
+          "name": "Baykan",
+          "rawName": "BAYKAN"
+        },
+        {
+          "code": "1637",
+          "name": "Eruh",
+          "rawName": "ERUH"
+        },
+        {
+          "code": "1638",
+          "name": "Kurtalan",
+          "rawName": "KURTALAN"
+        },
+        {
+          "code": "846",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1639",
+          "name": "Pervari",
+          "rawName": "PERVARİ"
+        },
+        {
+          "code": "1640",
+          "name": "Şirvan",
+          "rawName": "ŞİRVAN"
+        },
+        {
+          "code": "1635",
+          "name": "Tillo",
+          "rawName": "TİLLO"
+        }
+      ]
+    },
+    {
+      "plaka": "57",
+      "name": "Sinop",
+      "rawName": "SİNOP",
+      "ilceler": [
+        {
+          "code": "1641",
+          "name": "Ayancık",
+          "rawName": "AYANCIK"
+        },
+        {
+          "code": "1642",
+          "name": "Boyabat",
+          "rawName": "BOYABAT"
+        },
+        {
+          "code": "1643",
+          "name": "Dikmen",
+          "rawName": "DİKMEN"
+        },
+        {
+          "code": "1644",
+          "name": "Durağan",
+          "rawName": "DURAĞAN"
+        },
+        {
+          "code": "1645",
+          "name": "Erfelek",
+          "rawName": "ERFELEK"
+        },
+        {
+          "code": "1646",
+          "name": "Gerze",
+          "rawName": "GERZE"
+        },
+        {
+          "code": "853",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1647",
+          "name": "Saraydüzü",
+          "rawName": "SARAYDÜZÜ"
+        },
+        {
+          "code": "1648",
+          "name": "Türkeli",
+          "rawName": "TÜRKELİ"
+        }
+      ]
+    },
+    {
+      "plaka": "58",
+      "name": "Sivas",
+      "rawName": "SİVAS",
+      "ilceler": [
+        {
+          "code": "1649",
+          "name": "Akıncılar",
+          "rawName": "AKINCILAR"
+        },
+        {
+          "code": "1650",
+          "name": "Altınyayla",
+          "rawName": "ALTINYAYLA"
+        },
+        {
+          "code": "1651",
+          "name": "Divriği",
+          "rawName": "DİVRİĞİ"
+        },
+        {
+          "code": "1652",
+          "name": "Doğanşar",
+          "rawName": "DOĞANŞAR"
+        },
+        {
+          "code": "1653",
+          "name": "Gemerek",
+          "rawName": "GEMEREK"
+        },
+        {
+          "code": "1654",
+          "name": "Gölova",
+          "rawName": "GÖLOVA"
+        },
+        {
+          "code": "1655",
+          "name": "Gürün",
+          "rawName": "GÜRÜN"
+        },
+        {
+          "code": "1656",
+          "name": "Hafik",
+          "rawName": "HAFİK"
+        },
+        {
+          "code": "1657",
+          "name": "İmranlı",
+          "rawName": "İMRANLI"
+        },
+        {
+          "code": "1658",
+          "name": "Kangal",
+          "rawName": "KANGAL"
+        },
+        {
+          "code": "1659",
+          "name": "Koyulhisar",
+          "rawName": "KOYULHİSAR"
+        },
+        {
+          "code": "862",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1661",
+          "name": "Suşehri",
+          "rawName": "SUŞEHRİ"
+        },
+        {
+          "code": "1660",
+          "name": "Şarkışla",
+          "rawName": "ŞARKIŞLA"
+        },
+        {
+          "code": "1662",
+          "name": "Ulaş",
+          "rawName": "ULAŞ"
+        },
+        {
+          "code": "1663",
+          "name": "Yıldızeli",
+          "rawName": "YILDIZELİ"
+        },
+        {
+          "code": "1664",
+          "name": "Zara",
+          "rawName": "ZARA"
+        }
+      ]
+    },
+    {
+      "plaka": "63",
+      "name": "Şanlıurfa",
+      "rawName": "ŞANLIURFA",
+      "ilceler": [
+        {
+          "code": "1708",
+          "name": "Akçakale",
+          "rawName": "AKÇAKALE"
+        },
+        {
+          "code": "1709",
+          "name": "Birecik",
+          "rawName": "BİRECİK"
+        },
+        {
+          "code": "1710",
+          "name": "Bozova",
+          "rawName": "BOZOVA"
+        },
+        {
+          "code": "1711",
+          "name": "Ceylanpınar",
+          "rawName": "CEYLANPINAR"
+        },
+        {
+          "code": "7710141",
+          "name": "Eyyübiye",
+          "rawName": "EYYÜBİYE"
+        },
+        {
+          "code": "1712",
+          "name": "Halfeti",
+          "rawName": "HALFETİ"
+        },
+        {
+          "code": "7710140",
+          "name": "Haliliye",
+          "rawName": "HALİLİYE"
+        },
+        {
+          "code": "1713",
+          "name": "Harran",
+          "rawName": "HARRAN"
+        },
+        {
+          "code": "1714",
+          "name": "Hilvan",
+          "rawName": "HİLVAN"
+        },
+        {
+          "code": "7710185",
+          "name": "Karaköprü",
+          "rawName": "KARAKÖPRÜ"
+        },
+        {
+          "code": "1715",
+          "name": "Siverek",
+          "rawName": "SİVEREK"
+        },
+        {
+          "code": "1716",
+          "name": "Suruç",
+          "rawName": "SURUÇ"
+        },
+        {
+          "code": "1717",
+          "name": "Viranşehir",
+          "rawName": "VİRANŞEHİR"
+        }
+      ]
+    },
+    {
+      "plaka": "73",
+      "name": "Şırnak",
+      "rawName": "ŞIRNAK",
+      "ilceler": [
+        {
+          "code": "1778",
+          "name": "Beytüşşebap",
+          "rawName": "BEYTÜŞŞEBAP"
+        },
+        {
+          "code": "1779",
+          "name": "Cizre",
+          "rawName": "CİZRE"
+        },
+        {
+          "code": "1780",
+          "name": "Güçlükonak",
+          "rawName": "GÜÇLÜKONAK"
+        },
+        {
+          "code": "1781",
+          "name": "İdil",
+          "rawName": "İDİL"
+        },
+        {
+          "code": "86131",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1782",
+          "name": "Silopi",
+          "rawName": "SİLOPİ"
+        },
+        {
+          "code": "1783",
+          "name": "Uludere",
+          "rawName": "ULUDERE"
+        }
+      ]
+    },
+    {
+      "plaka": "59",
+      "name": "Tekirdağ",
+      "rawName": "TEKİRDAĞ",
+      "ilceler": [
+        {
+          "code": "1665",
+          "name": "Çerkezköy",
+          "rawName": "ÇERKEZKÖY"
+        },
+        {
+          "code": "1666",
+          "name": "Çorlu",
+          "rawName": "ÇORLU"
+        },
+        {
+          "code": "7710186",
+          "name": "Ergene",
+          "rawName": "ERGENE"
+        },
+        {
+          "code": "1667",
+          "name": "Hayrabolu",
+          "rawName": "HAYRABOLU"
+        },
+        {
+          "code": "7710187",
+          "name": "Kapaklı",
+          "rawName": "KAPAKLI"
+        },
+        {
+          "code": "1668",
+          "name": "Malkara",
+          "rawName": "MALKARA"
+        },
+        {
+          "code": "1669",
+          "name": "Marmaraereğlisi",
+          "rawName": "MARMARAEREĞLİSİ"
+        },
+        {
+          "code": "1670",
+          "name": "Muratlı",
+          "rawName": "MURATLI"
+        },
+        {
+          "code": "1671",
+          "name": "Saray",
+          "rawName": "SARAY"
+        },
+        {
+          "code": "7710143",
+          "name": "Süleymanpaşa",
+          "rawName": "SÜLEYMANPAŞA"
+        },
+        {
+          "code": "1672",
+          "name": "Şarköy",
+          "rawName": "ŞARKÖY"
+        }
+      ]
+    },
+    {
+      "plaka": "60",
+      "name": "Tokat",
+      "rawName": "TOKAT",
+      "ilceler": [
+        {
+          "code": "1673",
+          "name": "Almus",
+          "rawName": "ALMUS"
+        },
+        {
+          "code": "1674",
+          "name": "Artova",
+          "rawName": "ARTOVA"
+        },
+        {
+          "code": "1675",
+          "name": "Başçiftlik",
+          "rawName": "BAŞÇİFTLİK"
+        },
+        {
+          "code": "1676",
+          "name": "Erbaa",
+          "rawName": "ERBAA"
+        },
+        {
+          "code": "888",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1677",
+          "name": "Niksar",
+          "rawName": "NİKSAR"
+        },
+        {
+          "code": "1678",
+          "name": "Pazar",
+          "rawName": "PAZAR"
+        },
+        {
+          "code": "1679",
+          "name": "Reşadiye",
+          "rawName": "REŞADİYE"
+        },
+        {
+          "code": "1680",
+          "name": "Sulusaray",
+          "rawName": "SULUSARAY"
+        },
+        {
+          "code": "1681",
+          "name": "Turhal",
+          "rawName": "TURHAL"
+        },
+        {
+          "code": "1682",
+          "name": "Yeşilyurt",
+          "rawName": "YEŞİLYURT"
+        },
+        {
+          "code": "1683",
+          "name": "Zile",
+          "rawName": "ZİLE"
+        }
+      ]
+    },
+    {
+      "plaka": "61",
+      "name": "Trabzon",
+      "rawName": "TRABZON",
+      "ilceler": [
+        {
+          "code": "1684",
+          "name": "Akçaabat",
+          "rawName": "AKÇAABAT"
+        },
+        {
+          "code": "1685",
+          "name": "Araklı",
+          "rawName": "ARAKLI"
+        },
+        {
+          "code": "1686",
+          "name": "Arsin",
+          "rawName": "ARSİN"
+        },
+        {
+          "code": "1687",
+          "name": "Beşikdüzü",
+          "rawName": "BEŞİKDÜZÜ"
+        },
+        {
+          "code": "1688",
+          "name": "Çarşıbaşı",
+          "rawName": "ÇARŞIBAŞI"
+        },
+        {
+          "code": "1689",
+          "name": "Çaykara",
+          "rawName": "ÇAYKARA"
+        },
+        {
+          "code": "1690",
+          "name": "Dernekpazarı",
+          "rawName": "DERNEKPAZARI"
+        },
+        {
+          "code": "1691",
+          "name": "Düzköy",
+          "rawName": "DÜZKÖY"
+        },
+        {
+          "code": "1692",
+          "name": "Hayrat",
+          "rawName": "HAYRAT"
+        },
+        {
+          "code": "1693",
+          "name": "Köprübaşı",
+          "rawName": "KÖPRÜBAŞI"
+        },
+        {
+          "code": "1694",
+          "name": "Maçka",
+          "rawName": "MAÇKA"
+        },
+        {
+          "code": "1695",
+          "name": "Of",
+          "rawName": "OF"
+        },
+        {
+          "code": "7710142",
+          "name": "Ortahisar",
+          "rawName": "ORTAHİSAR"
+        },
+        {
+          "code": "1697",
+          "name": "Sürmene",
+          "rawName": "SÜRMENE"
+        },
+        {
+          "code": "1696",
+          "name": "Şalpazarı",
+          "rawName": "ŞALPAZARI"
+        },
+        {
+          "code": "1698",
+          "name": "Tonya",
+          "rawName": "TONYA"
+        },
+        {
+          "code": "1699",
+          "name": "Vakfıkebir",
+          "rawName": "VAKFIKEBİR"
+        },
+        {
+          "code": "1700",
+          "name": "Yomra",
+          "rawName": "YOMRA"
+        }
+      ]
+    },
+    {
+      "plaka": "62",
+      "name": "Tunceli",
+      "rawName": "TUNCELİ",
+      "ilceler": [
+        {
+          "code": "1701",
+          "name": "Çemişgezek",
+          "rawName": "ÇEMİŞGEZEK"
+        },
+        {
+          "code": "1702",
+          "name": "Hozat",
+          "rawName": "HOZAT"
+        },
+        {
+          "code": "1703",
+          "name": "Mazgirt",
+          "rawName": "MAZGİRT"
+        },
+        {
+          "code": "918",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1704",
+          "name": "Nazımiye",
+          "rawName": "NAZIMİYE"
+        },
+        {
+          "code": "1705",
+          "name": "Ovacık",
+          "rawName": "OVACIK"
+        },
+        {
+          "code": "1706",
+          "name": "Pertek",
+          "rawName": "PERTEK"
+        },
+        {
+          "code": "1707",
+          "name": "Pülümür",
+          "rawName": "PÜLÜMÜR"
+        }
+      ]
+    },
+    {
+      "plaka": "64",
+      "name": "Uşak",
+      "rawName": "UŞAK",
+      "ilceler": [
+        {
+          "code": "1718",
+          "name": "Banaz",
+          "rawName": "BANAZ"
+        },
+        {
+          "code": "1719",
+          "name": "Eşme",
+          "rawName": "EŞME"
+        },
+        {
+          "code": "1720",
+          "name": "Karahallı",
+          "rawName": "KARAHALLI"
+        },
+        {
+          "code": "937",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1721",
+          "name": "Sivaslı",
+          "rawName": "SİVASLI"
+        },
+        {
+          "code": "1722",
+          "name": "Ulubey",
+          "rawName": "ULUBEY"
+        }
+      ]
+    },
+    {
+      "plaka": "65",
+      "name": "Van",
+      "rawName": "VAN",
+      "ilceler": [
+        {
+          "code": "1723",
+          "name": "Bahçesaray",
+          "rawName": "BAHÇESARAY"
+        },
+        {
+          "code": "1724",
+          "name": "Başkale",
+          "rawName": "BAŞKALE"
+        },
+        {
+          "code": "1725",
+          "name": "Çaldıran",
+          "rawName": "ÇALDIRAN"
+        },
+        {
+          "code": "1726",
+          "name": "Çatak",
+          "rawName": "ÇATAK"
+        },
+        {
+          "code": "1727",
+          "name": "Edremit",
+          "rawName": "EDREMİT"
+        },
+        {
+          "code": "1728",
+          "name": "Erciş",
+          "rawName": "ERCİŞ"
+        },
+        {
+          "code": "1729",
+          "name": "Gevaş",
+          "rawName": "GEVAŞ"
+        },
+        {
+          "code": "1730",
+          "name": "Gürpınar",
+          "rawName": "GÜRPINAR"
+        },
+        {
+          "code": "7710138",
+          "name": "İpekyolu",
+          "rawName": "İPEKYOLU"
+        },
+        {
+          "code": "1731",
+          "name": "Muradiye",
+          "rawName": "MURADİYE"
+        },
+        {
+          "code": "1732",
+          "name": "Özalp",
+          "rawName": "ÖZALP"
+        },
+        {
+          "code": "1733",
+          "name": "Saray",
+          "rawName": "SARAY"
+        },
+        {
+          "code": "7710139",
+          "name": "Tuşba",
+          "rawName": "TUŞBA"
+        }
+      ]
+    },
+    {
+      "plaka": "77",
+      "name": "Yalova",
+      "rawName": "YALOVA",
+      "ilceler": [
+        {
+          "code": "1795",
+          "name": "Altınova",
+          "rawName": "ALTINOVA"
+        },
+        {
+          "code": "1796",
+          "name": "Armutlu",
+          "rawName": "ARMUTLU"
+        },
+        {
+          "code": "1798",
+          "name": "Çınarcık",
+          "rawName": "ÇINARCIK"
+        },
+        {
+          "code": "1797",
+          "name": "Çiftlikköy",
+          "rawName": "ÇİFTLİKKÖY"
+        },
+        {
+          "code": "87489",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1799",
+          "name": "Termal",
+          "rawName": "TERMAL"
+        }
+      ]
+    },
+    {
+      "plaka": "66",
+      "name": "Yozgat",
+      "rawName": "YOZGAT",
+      "ilceler": [
+        {
+          "code": "1734",
+          "name": "Akdağmadeni",
+          "rawName": "AKDAĞMADENİ"
+        },
+        {
+          "code": "1735",
+          "name": "Aydıncık",
+          "rawName": "AYDINCIK"
+        },
+        {
+          "code": "1736",
+          "name": "Boğazlıyan",
+          "rawName": "BOĞAZLIYAN"
+        },
+        {
+          "code": "1737",
+          "name": "Çandır",
+          "rawName": "ÇANDIR"
+        },
+        {
+          "code": "1738",
+          "name": "Çayıralan",
+          "rawName": "ÇAYIRALAN"
+        },
+        {
+          "code": "1739",
+          "name": "Çekerek",
+          "rawName": "ÇEKEREK"
+        },
+        {
+          "code": "1740",
+          "name": "Kadışehri",
+          "rawName": "KADIŞEHRİ"
+        },
+        {
+          "code": "955",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        },
+        {
+          "code": "1741",
+          "name": "Saraykent",
+          "rawName": "SARAYKENT"
+        },
+        {
+          "code": "1742",
+          "name": "Sarıkaya",
+          "rawName": "SARIKAYA"
+        },
+        {
+          "code": "1744",
+          "name": "Sorgun",
+          "rawName": "SORGUN"
+        },
+        {
+          "code": "1743",
+          "name": "Şefaatli",
+          "rawName": "ŞEFAATLİ"
+        },
+        {
+          "code": "1745",
+          "name": "Yenifakılı",
+          "rawName": "YENİFAKILI"
+        },
+        {
+          "code": "1746",
+          "name": "Yerköy",
+          "rawName": "YERKÖY"
+        }
+      ]
+    },
+    {
+      "plaka": "67",
+      "name": "Zonguldak",
+      "rawName": "ZONGULDAK",
+      "ilceler": [
+        {
+          "code": "1747",
+          "name": "Alaplı",
+          "rawName": "ALAPLI"
+        },
+        {
+          "code": "1748",
+          "name": "Çaycuma",
+          "rawName": "ÇAYCUMA"
+        },
+        {
+          "code": "1749",
+          "name": "Devrek",
+          "rawName": "DEVREK"
+        },
+        {
+          "code": "1751",
+          "name": "Ereğli",
+          "rawName": "EREĞLİ"
+        },
+        {
+          "code": "1750",
+          "name": "Gökçebey",
+          "rawName": "GÖKÇEBEY"
+        },
+        {
+          "code": "7710144",
+          "name": "Kilimli",
+          "rawName": "KİLİMLİ"
+        },
+        {
+          "code": "7710393",
+          "name": "Kozlu",
+          "rawName": "KOZLU"
+        },
+        {
+          "code": "969",
+          "name": "Merkez",
+          "rawName": "MERKEZ"
+        }
+      ]
+    }
+  ]
+}

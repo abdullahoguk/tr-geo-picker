@@ -1,0 +1,1291 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/constants.js",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "TAG_NAME",
+          "type": {
+            "text": "string"
+          },
+          "default": "'tr-geo-picker'",
+          "description": "Custom element etiket adı. Değiştirmek için tek yer burası."
+        },
+        {
+          "kind": "variable",
+          "name": "LEVELS",
+          "type": {
+            "text": "array"
+          },
+          "default": "['turkiye', 'bolge', 'il', 'ilce']",
+          "description": "Harita seviyeleri, kökten yaprağa."
+        },
+        {
+          "kind": "variable",
+          "name": "DEFAULT_DATA_URL",
+          "description": "Paketle gelen varsayılan veri klasörü (src/ ve dist/ için aynı göreli yol)."
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "TAG_NAME",
+          "declaration": {
+            "name": "TAG_NAME",
+            "module": "src/constants.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "LEVELS",
+          "declaration": {
+            "name": "LEVELS",
+            "module": "src/constants.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "DEFAULT_DATA_URL",
+          "declaration": {
+            "name": "DEFAULT_DATA_URL",
+            "module": "src/constants.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/data-loader.js",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "load",
+          "parameters": [
+            {
+              "name": "src",
+              "type": {
+                "text": "{ dataProvider?: DataProvider | null, data?: Catalog | null, dataSrc?: string | null }"
+              }
+            },
+            {
+              "name": "level",
+              "type": {
+                "text": "DataLevel"
+              }
+            },
+            {
+              "name": "id",
+              "optional": true,
+              "type": {
+                "text": "string"
+              }
+            }
+          ],
+          "description": "Öncelik: dataProvider → data (yalnız katalog) → data-src → paketle gelen veri.\ndataProvider null/undefined döndürürse zincirin devamına düşülür."
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "load",
+          "declaration": {
+            "name": "load",
+            "module": "src/data-loader.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/i18n.js",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "I18N",
+          "type": {
+            "text": "Record<string, Record<string, string>>"
+          },
+          "default": "{ tr: { root: 'Türkiye', placeholder: 'İl / ilçe seçin', search: 'İl veya ilçe ara…', noResult: 'Sonuç yok', back: 'Geri', zoomIn: 'Yakınlaştır', zoomOut: 'Uzaklaştır', zoomReset: 'Sığdır', required: 'Lütfen bir seçim yapın.', selected: '{0} seçildi', showing: '{0}: {1} seçenek', map: 'Harita', list: 'Liste', loading: 'Yükleniyor…', error: 'Veri yüklenemedi', }, en: { root: 'Türkiye', placeholder: 'Select province / district', search: 'Search province or district…', noResult: 'No results', back: 'Back', zoomIn: 'Zoom in', zoomOut: 'Zoom out', zoomReset: 'Fit', required: 'Please make a selection.', selected: '{0} selected', showing: '{0}: {1} options', map: 'Map', list: 'List', loading: 'Loading…', error: 'Failed to load data', }, }",
+          "description": "UI metinleri. Yeni dil eklemek için aynı anahtarlarla bir sözlük ekleyin.\n`{0}` yer tutucuları sırayla doldurulur."
+        },
+        {
+          "kind": "function",
+          "name": "t",
+          "parameters": [
+            {
+              "name": "locale",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "key",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "args",
+              "type": {
+                "text": "...(string|number)"
+              }
+            }
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "I18N",
+          "declaration": {
+            "name": "I18N",
+            "module": "src/i18n.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "t",
+          "declaration": {
+            "name": "t",
+            "module": "src/i18n.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/search.js",
+      "declarations": [
+        {
+          "kind": "function",
+          "name": "normalize",
+          "parameters": [
+            {
+              "name": "s",
+              "type": {
+                "text": "string"
+              }
+            }
+          ],
+          "description": "Türkçe normalize: \"İSTANBUL\" → \"istanbul\", \"Iğdır\" → \"igdir\"."
+        },
+        {
+          "kind": "function",
+          "name": "search",
+          "parameters": [
+            {
+              "name": "entries",
+              "type": {
+                "text": "SearchEntry[]"
+              }
+            },
+            {
+              "name": "query",
+              "type": {
+                "text": "string"
+              }
+            },
+            {
+              "name": "limit",
+              "default": "8",
+              "optional": true,
+              "type": {
+                "text": "number"
+              }
+            }
+          ],
+          "return": {
+            "type": {
+              "text": "SearchEntry[]"
+            }
+          }
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "normalize",
+          "declaration": {
+            "name": "normalize",
+            "module": "src/search.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "search",
+          "declaration": {
+            "name": "search",
+            "module": "src/search.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/styles.js",
+      "declarations": [
+        {
+          "kind": "variable",
+          "name": "CSS",
+          "default": "` :host { --tks-font: inherit; --tks-height: 320px; --tks-radius: 8px; --tks-stroke-width: .6; --tks-field-height: 38px; --tks-panel-width: 420px; --tks-duration: 200ms; ${LIGHT} display: inline-block; width: 100%; max-width: 100%; position: relative; box-sizing: border-box; font: 14px/1.4 var(--tks-font); color: var(--tks-fg); vertical-align: top; } :host([theme=\"dark\"]) { ${DARK} } @media (prefers-color-scheme: dark) { :host([theme=\"auto\"]), :host(:not([theme])) { ${DARK} } } :host([size=\"sm\"]) { --tks-height: 240px; font-size: 13px; --tks-field-height: 32px; } :host([hidden]) { display: none; } :host([disabled]) { opacity: .55; pointer-events: none; } * { box-sizing: border-box; } button, input { font: inherit; color: inherit; } :focus-visible { outline: 2px solid var(--tks-focus); outline-offset: 1px; } .field { display: flex; align-items: center; gap: 8px; width: 100%; height: var(--tks-field-height); padding: 0 10px; border: 1px solid var(--tks-border); border-radius: var(--tks-radius); background: var(--tks-bg); cursor: pointer; text-align: start; } .field .txt { flex: 1; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; } .field .ph { color: var(--tks-muted); } .field svg { width: 16px; height: 16px; fill: none; stroke: var(--tks-muted); stroke-width: 2; flex: none; } .panel { display: flex; flex-direction: column; gap: 6px; padding: 8px; width: 100%; background: var(--tks-bg); color: var(--tks-fg); border: 1px solid var(--tks-border); border-radius: var(--tks-radius); } .pop .panel { position: fixed; inset: auto; margin: 0; width: min(var(--tks-panel-width), calc(100vw - 16px)); box-shadow: var(--tks-shadow); z-index: 1000; } .pop .panel:not([popover]):not(.open) { display: none; } .pop .panel[popover]:not(:popover-open) { display: none; } .top { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; position: relative; } nav { display: flex; flex-wrap: wrap; align-items: center; gap: 2px; flex: 1 1 auto; min-width: 0; } nav button, nav span { border: 0; background: none; padding: 2px 4px; border-radius: 4px; white-space: nowrap; } nav button { cursor: pointer; color: var(--tks-fill-selected); } nav button:hover { text-decoration: underline; } nav button[disabled] { color: var(--tks-muted); cursor: default; text-decoration: none; } nav i { color: var(--tks-muted); font-style: normal; } nav span { font-weight: 600; } .sw { position: relative; flex: 1 1 150px; } input[type=\"search\"] { width: 100%; height: 30px; padding: 0 8px; border: 1px solid var(--tks-border); border-radius: calc(var(--tks-radius) - 2px); background: var(--tks-bg); } .sugg { position: absolute; top: 100%; inset-inline: 0; z-index: 3; margin: 2px 0 0; padding: 4px; list-style: none; background: var(--tks-bg); border: 1px solid var(--tks-border); border-radius: var(--tks-radius); box-shadow: var(--tks-shadow); } .sugg:empty, .sugg[hidden] { display: none; } .sugg li { padding: 5px 8px; border-radius: 4px; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; } .sugg li small { color: var(--tks-muted); } .sugg li[aria-selected=\"true\"], .sugg li:hover { background: var(--tks-chip-bg); } .map { position: relative; height: var(--tks-height); touch-action: manipulation; overflow: hidden; border-radius: calc(var(--tks-radius) - 2px); } .map > svg { width: 100%; height: 100%; display: block; } .map.zm { touch-action: none; cursor: grab; } .dis { opacity: .55; pointer-events: none; } .m g { animation: tks-in var(--tks-duration) ease-out; transform-box: fill-box; transform-origin: center; } @keyframes tks-in { from { opacity: 0; transform: scale(.97); } } @media (prefers-reduced-motion: reduce) { .m g { animation: none; } } .m path { fill: var(--tks-fill); stroke: var(--tks-stroke); stroke-width: var(--tks-stroke-width); vector-effect: non-scaling-stroke; stroke-linejoin: round; cursor: pointer; outline: none; transition: fill .12s; } .m path[part~=\"region\"] { fill: var(--c); } .m path:hover, .m path.hl { fill: var(--tks-fill-hover); } .m path[aria-selected=\"true\"] { fill: var(--tks-fill-selected); } .m path[aria-disabled=\"true\"] { fill: var(--tks-fill-disabled); cursor: default; } .m path:focus-visible { stroke: var(--tks-focus); stroke-width: 2.5; paint-order: stroke; } .zoom { position: absolute; inset-inline-end: 6px; bottom: 6px; display: flex; flex-direction: column; gap: 2px; } .zoom[hidden] { display: none; } .zoom button { width: 28px; height: 28px; border: 1px solid var(--tks-border); border-radius: 6px; background: var(--tks-bg); cursor: pointer; line-height: 1; } .tip { position: absolute; pointer-events: none; padding: 3px 7px; border-radius: 4px; font-size: 12px; background: var(--tks-tooltip-bg); color: var(--tks-tooltip-fg); transform: translate(-50%, calc(-100% - 8px)); white-space: nowrap; } .tip[hidden] { display: none; } .msg { position: absolute; inset: 0; display: grid; place-items: center; color: var(--tks-muted); } .msg:empty { display: none; } .list { display: flex; flex-wrap: wrap; gap: 4px; max-height: 84px; overflow: auto; margin: 0; padding: 0; list-style: none; } .list button { border: 1px solid transparent; background: var(--tks-chip-bg); border-radius: 999px; padding: 2px 9px; font-size: .9em; cursor: pointer; } .list button:hover { border-color: var(--tks-fill-hover); } .list button[aria-pressed=\"true\"] { background: var(--tks-fill-selected); color: var(--tks-bg); } .list button[disabled] { opacity: .45; cursor: default; } .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; } `"
+        },
+        {
+          "kind": "function",
+          "name": "getSheet",
+          "description": "Constructable stylesheet (tüm örnekler paylaşır); desteklenmiyorsa null."
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "CSS",
+          "declaration": {
+            "name": "CSS",
+            "module": "src/styles.js"
+          }
+        },
+        {
+          "kind": "js",
+          "name": "getSheet",
+          "declaration": {
+            "name": "getSheet",
+            "module": "src/styles.js"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "javascript-module",
+      "path": "src/tr-geo-picker.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "Türkiye haritası üzerinden il / ilçe seçtiren, form uyumlu custom element.",
+          "name": "TrGeoPicker",
+          "cssProperties": [
+            {
+              "description": "Harita yüksekliği (320px)",
+              "name": "--tks-height"
+            },
+            {
+              "description": "Arka plan",
+              "name": "--tks-bg"
+            },
+            {
+              "description": "Metin",
+              "name": "--tks-fg"
+            },
+            {
+              "description": "Seçili öğe dolgusu",
+              "name": "--tks-fill-selected"
+            },
+            {
+              "description": "Bölge renkleri (1–7)",
+              "name": "--tks-region-1"
+            }
+          ],
+          "cssParts": [
+            {
+              "description": "popover modunda input görünümlü alan",
+              "name": "field"
+            },
+            {
+              "description": "harita paneli",
+              "name": "panel"
+            },
+            {
+              "description": "üst gezinme",
+              "name": "breadcrumb"
+            },
+            {
+              "description": "arama kutusu",
+              "name": "search"
+            },
+            {
+              "description": "SVG harita",
+              "name": "map"
+            },
+            {
+              "description": "haritadaki her öğe",
+              "name": "item"
+            },
+            {
+              "description": "Türkiye görünümündeki bölge öğeleri",
+              "name": "region"
+            },
+            {
+              "description": "seçili öğe",
+              "name": "item-selected"
+            },
+            {
+              "description": "seçilemeyen öğe",
+              "name": "item-disabled"
+            },
+            {
+              "description": "harita altındaki liste",
+              "name": "list"
+            },
+            {
+              "description": "isim balonu",
+              "name": "tooltip"
+            }
+          ],
+          "members": [
+            {
+              "kind": "field",
+              "name": "formAssociated",
+              "type": {
+                "text": "boolean"
+              },
+              "static": true,
+              "default": "true"
+            },
+            {
+              "kind": "field",
+              "name": "#in",
+              "privacy": "private"
+            },
+            {
+              "kind": "field",
+              "name": "#root",
+              "privacy": "private"
+            },
+            {
+              "kind": "field",
+              "name": "#cat",
+              "privacy": "private",
+              "type": {
+                "text": "Catalog|null"
+              },
+              "default": "null"
+            },
+            {
+              "kind": "field",
+              "name": "#idx",
+              "privacy": "private",
+              "default": "(null)"
+            },
+            {
+              "kind": "field",
+              "name": "#view",
+              "privacy": "private",
+              "type": {
+                "text": "{ level: ViewLevel, id: string|null }"
+              },
+              "default": "{ level: 'turkiye', id: null }"
+            },
+            {
+              "kind": "field",
+              "name": "#geo",
+              "privacy": "private",
+              "type": {
+                "text": "Geo|null"
+              },
+              "default": "null"
+            },
+            {
+              "kind": "field",
+              "name": "#sel",
+              "privacy": "private",
+              "type": {
+                "text": "Record<string, any>"
+              },
+              "default": "{ bolge: null, il: null, ilce: null }"
+            },
+            {
+              "kind": "field",
+              "name": "#value",
+              "privacy": "private",
+              "type": {
+                "text": "string"
+              },
+              "default": "''"
+            },
+            {
+              "kind": "field",
+              "name": "#pending",
+              "privacy": "private",
+              "default": "(null)"
+            },
+            {
+              "kind": "field",
+              "name": "#data",
+              "privacy": "private",
+              "default": "(null)"
+            },
+            {
+              "kind": "field",
+              "name": "#provider",
+              "privacy": "private",
+              "default": "(null)"
+            },
+            {
+              "kind": "field",
+              "name": "#filter",
+              "privacy": "private",
+              "default": "(null)"
+            },
+            {
+              "kind": "field",
+              "name": "#seq",
+              "privacy": "private",
+              "type": {
+                "text": "number"
+              },
+              "default": "0"
+            },
+            {
+              "kind": "field",
+              "name": "#started",
+              "privacy": "private",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false"
+            },
+            {
+              "kind": "field",
+              "name": "#off",
+              "privacy": "private",
+              "default": "(null)"
+            },
+            {
+              "kind": "field",
+              "name": "#vseq",
+              "privacy": "private",
+              "type": {
+                "text": "number"
+              },
+              "default": "0"
+            },
+            {
+              "kind": "field",
+              "name": "#entries",
+              "privacy": "private",
+              "default": "(null)"
+            },
+            {
+              "kind": "field",
+              "name": "#act",
+              "privacy": "private",
+              "default": "new Map()"
+            },
+            {
+              "kind": "field",
+              "name": "#vb",
+              "privacy": "private",
+              "type": {
+                "text": "array"
+              },
+              "default": "[0, 0, 1, 1]"
+            },
+            {
+              "kind": "field",
+              "name": "#z",
+              "privacy": "private",
+              "type": {
+                "text": "array"
+              },
+              "default": "[0, 0, 1, 1]"
+            },
+            {
+              "kind": "field",
+              "name": "#ptr",
+              "privacy": "private",
+              "default": "new Map()"
+            },
+            {
+              "kind": "field",
+              "name": "#drag",
+              "privacy": "private",
+              "type": {
+                "text": "boolean"
+              },
+              "default": "false"
+            },
+            {
+              "kind": "field",
+              "name": "#hits",
+              "privacy": "private",
+              "default": "([])"
+            },
+            {
+              "kind": "field",
+              "name": "#hi",
+              "privacy": "private",
+              "type": {
+                "text": "number"
+              },
+              "default": "-1"
+            },
+            {
+              "kind": "field",
+              "name": "mode",
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "valueType",
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "display",
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "searchable"
+            },
+            {
+              "kind": "field",
+              "name": "locale",
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "nameSeparator",
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "readOnly"
+            },
+            {
+              "kind": "field",
+              "name": "value",
+              "description": "Seçili değer (`value-type`'a göre)."
+            },
+            {
+              "kind": "field",
+              "name": "selection",
+              "return": {
+                "type": {
+                  "text": "Selection"
+                }
+              },
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "data",
+              "description": "Katalog nesnesini doğrudan verir (geometri yine data-src / paketten gelir)."
+            },
+            {
+              "kind": "field",
+              "name": "dataProvider",
+              "description": "`async (level, id) => data` ile tamamen özel veri yükleme. null dönerse varsayılan zincire düşer."
+            },
+            {
+              "kind": "field",
+              "name": "filter",
+              "description": "`(item) => boolean` — false dönen öğeler pasif (gri) çizilir. item.level: 'bolge'|'il'|'ilce'"
+            },
+            {
+              "kind": "field",
+              "name": "form",
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "validity",
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "validationMessage",
+              "readonly": true
+            },
+            {
+              "kind": "field",
+              "name": "willValidate",
+              "readonly": true
+            },
+            {
+              "kind": "method",
+              "name": "checkValidity"
+            },
+            {
+              "kind": "method",
+              "name": "reportValidity"
+            },
+            {
+              "kind": "method",
+              "name": "formResetCallback"
+            },
+            {
+              "kind": "method",
+              "name": "formStateRestoreCallback",
+              "parameters": [
+                {
+                  "name": "state"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "formDisabledCallback",
+              "parameters": [
+                {
+                  "name": "d"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "reset",
+              "description": "Değeri temizler ve başlangıç görünümüne döner."
+            },
+            {
+              "kind": "method",
+              "name": "goTo",
+              "parameters": [
+                {
+                  "name": "level",
+                  "type": {
+                    "text": "ViewLevel"
+                  }
+                },
+                {
+                  "name": "id",
+                  "optional": true,
+                  "type": {
+                    "text": "string"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "select",
+              "parameters": [
+                {
+                  "name": "id",
+                  "type": {
+                    "text": "string"
+                  }
+                }
+              ],
+              "description": "Görünümdeki veya katalogdaki bir öğeyi seçer / içine girer."
+            },
+            {
+              "kind": "method",
+              "name": "back",
+              "description": "Bir seviye yukarı çıkar."
+            },
+            {
+              "kind": "method",
+              "name": "open",
+              "description": "popover modunda paneli açar."
+            },
+            {
+              "kind": "method",
+              "name": "close"
+            },
+            {
+              "kind": "method",
+              "name": "#$",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "s"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#t",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "k"
+                },
+                {
+                  "name": "a"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#shell",
+              "privacy": "private"
+            },
+            {
+              "kind": "field",
+              "name": "#src",
+              "privacy": "private",
+              "readonly": true
+            },
+            {
+              "kind": "method",
+              "name": "#init",
+              "privacy": "private"
+            },
+            {
+              "kind": "method",
+              "name": "#index",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "cat"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#kids",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "level"
+                },
+                {
+                  "name": "id"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#on",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "level"
+                },
+                {
+                  "name": "id"
+                }
+              ],
+              "description": "Öğe seçilebilir mi? Üst seviyeler en az bir seçilebilir alt öğe içeriyorsa aktiftir."
+            },
+            {
+              "kind": "method",
+              "name": "#startView",
+              "privacy": "private"
+            },
+            {
+              "kind": "method",
+              "name": "#minLevel",
+              "privacy": "private",
+              "description": "Kilitliyse en üst görünüm seviyesi."
+            },
+            {
+              "kind": "method",
+              "name": "#canUp",
+              "privacy": "private"
+            },
+            {
+              "kind": "method",
+              "name": "#show",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "level"
+                },
+                {
+                  "name": "id"
+                },
+                {
+                  "name": "focus",
+                  "default": "false"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#fail",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "level"
+                },
+                {
+                  "name": "id"
+                },
+                {
+                  "name": "error"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#val",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "it",
+                  "type": {
+                    "text": "any"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#compute",
+              "privacy": "private"
+            },
+            {
+              "kind": "method",
+              "name": "#applyValue",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "v"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#setPath",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "level"
+                },
+                {
+                  "name": "it"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#sync",
+              "privacy": "private"
+            },
+            {
+              "kind": "method",
+              "name": "#refresh",
+              "privacy": "private"
+            },
+            {
+              "kind": "method",
+              "name": "#emit",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "type"
+                },
+                {
+                  "name": "detail"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#pick",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "id"
+                },
+                {
+                  "name": "focus",
+                  "default": "false"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#choose",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "level"
+                },
+                {
+                  "name": "id"
+                },
+                {
+                  "name": "focus",
+                  "default": "false"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#path",
+              "privacy": "private",
+              "description": "Görünüm yolu: Türkiye › bölge › il"
+            },
+            {
+              "kind": "method",
+              "name": "#render",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "focus",
+                  "default": "false"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#focusMap",
+              "privacy": "private"
+            },
+            {
+              "kind": "method",
+              "name": "#say",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "msg"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#tip",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "p"
+                },
+                {
+                  "name": "e"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#mapKey",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "e"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#suggest",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "q"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#searchKey",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "e"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#useHit",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "i"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#setZ",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "z"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#zoomAt",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "p",
+                  "description": "SVG koordinatı; null = merkez",
+                  "type": {
+                    "text": "{x: number, y: number}|null"
+                  }
+                },
+                {
+                  "name": "k",
+                  "description": "ölçek (<1 yakınlaştır)",
+                  "type": {
+                    "text": "number"
+                  }
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#svgPt",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "cx"
+                },
+                {
+                  "name": "cy"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#wheel",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "e"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#pdown",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "e"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#pmove",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "e"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#pup",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "e"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#onToggle",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "open"
+                }
+              ]
+            },
+            {
+              "kind": "method",
+              "name": "#place",
+              "privacy": "private"
+            },
+            {
+              "kind": "method",
+              "name": "#toggleFallback",
+              "privacy": "private",
+              "parameters": [
+                {
+                  "name": "open"
+                }
+              ]
+            }
+          ],
+          "events": [
+            {
+              "name": "type",
+              "type": {
+                "text": "CustomEvent"
+              }
+            },
+            {
+              "description": "Son seviyede seçim yapıldığında. detail: { value, selection }",
+              "name": "change"
+            },
+            {
+              "description": "Seçim yolu her değiştiğinde. detail: { value, selection }",
+              "name": "input"
+            },
+            {
+              "description": "Görünüm değiştiğinde. detail: { level, id, path }",
+              "name": "tks-navigate"
+            },
+            {
+              "description": "Veri yüklendiğinde. detail: { level, id }",
+              "name": "tks-load"
+            },
+            {
+              "description": "Veri yüklenemediğinde. detail: { level, id, error }",
+              "name": "tks-error"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "value",
+              "type": {
+                "text": "string"
+              },
+              "description": "Seçili değer (value-type'a göre)"
+            },
+            {
+              "name": "searchable",
+              "type": {
+                "text": "boolean"
+              },
+              "description": "Arama kutusu; kapatmak için searchable=\"false\""
+            },
+            {
+              "type": {
+                "text": "string"
+              },
+              "description": "Form alan adı",
+              "name": "name"
+            },
+            {
+              "type": {
+                "text": "'il'|'ilce'"
+              },
+              "description": "Seçimin bittiği seviye (varsayılan ilce)",
+              "name": "mode"
+            },
+            {
+              "type": {
+                "text": "'id'|'name'|'custom'"
+              },
+              "description": "Değerin neyi temsil ettiği (varsayılan id)",
+              "name": "value-type"
+            },
+            {
+              "type": {
+                "text": "string"
+              },
+              "description": "value-type=\"name\" ve mode=\"ilce\" için ayraç (varsayılan /)",
+              "name": "name-separator"
+            },
+            {
+              "type": {
+                "text": "boolean"
+              },
+              "description": "{name}_bolge, {name}_il, {name}_ilce alanlarını da gönderir",
+              "name": "emit-fields"
+            },
+            {
+              "type": {
+                "text": "string"
+              },
+              "description": "Harici veri klasörü URL'i",
+              "name": "data-src"
+            },
+            {
+              "type": {
+                "text": "string"
+              },
+              "description": "light | dark | auto | özel ad",
+              "name": "theme"
+            },
+            {
+              "type": {
+                "text": "'inline'|'popover'"
+              },
+              "description": "Görünüm (varsayılan inline)",
+              "name": "display"
+            },
+            {
+              "type": {
+                "text": "'sm'|'md'"
+              },
+              "description": "Kompaktlık",
+              "name": "size"
+            },
+            {
+              "type": {
+                "text": "boolean"
+              },
+              "name": "required"
+            },
+            {
+              "type": {
+                "text": "boolean"
+              },
+              "name": "disabled"
+            },
+            {
+              "type": {
+                "text": "boolean"
+              },
+              "name": "readonly"
+            },
+            {
+              "type": {
+                "text": "string"
+              },
+              "description": "popover alanındaki boş metin",
+              "name": "placeholder"
+            },
+            {
+              "type": {
+                "text": "'tr'|'en'"
+              },
+              "description": "UI dili",
+              "name": "locale"
+            },
+            {
+              "type": {
+                "text": "string"
+              },
+              "description": "Açılış bölgesi id'si",
+              "name": "start-region"
+            },
+            {
+              "type": {
+                "text": "string"
+              },
+              "description": "Açılış ili (plaka)",
+              "name": "start-il"
+            },
+            {
+              "type": {
+                "text": "boolean"
+              },
+              "description": "start-il / start-region üstüne çıkışı engeller",
+              "name": "lock-level"
+            }
+          ],
+          "superclass": {
+            "name": "HTMLElement"
+          },
+          "tagName": "tr-geo-picker",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "js",
+          "name": "TrGeoPicker",
+          "declaration": {
+            "name": "TrGeoPicker",
+            "module": "src/tr-geo-picker.js"
+          }
+        },
+        {
+          "kind": "custom-element-definition",
+          "name": "TAG_NAME",
+          "declaration": {
+            "name": "TrGeoPicker",
+            "module": "src/tr-geo-picker.js"
+          }
+        }
+      ]
+    }
+  ]
+}

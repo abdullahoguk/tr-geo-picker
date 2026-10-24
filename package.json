@@ -1,0 +1,73 @@
+{
+  "name": "tr-geo-picker",
+  "version": "0.1.0",
+  "description": "Türkiye haritası üzerinden il / ilçe seçtiren, form uyumlu, bağımlılıksız Web Component",
+  "type": "module",
+  "license": "MIT",
+  "author": "Abdullah Öğük",
+  "keywords": [
+    "web-component",
+    "custom-element",
+    "turkey",
+    "türkiye",
+    "il",
+    "ilçe",
+    "map",
+    "form",
+    "svg"
+  ],
+  "main": "./src/tr-geo-picker.js",
+  "module": "./src/tr-geo-picker.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./src/tr-geo-picker.js"
+    },
+    "./data/*": "./data/*",
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/",
+    "data/",
+    "dist/",
+    "types/",
+    "custom-elements.json"
+  ],
+  "customElements": "custom-elements.json",
+  "sideEffects": [
+    "./src/tr-geo-picker.js"
+  ],
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "build:site": "node scripts/build-site.mjs",
+    "og": "node scripts/og-image.mjs",
+    "test": "playwright test",
+    "data:update": "node scripts/build-data/update-sources.mjs",
+    "data:build": "node scripts/build-data/index.mjs",
+    "data:check": "node scripts/build-data/check.mjs",
+    "analyze": "npx --yes @custom-elements-manifest/analyzer@0.11.0 analyze --globs \"src/**/*.js\"",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "esbuild": "^0.28.2",
+    "polylabel": "^2.1.0",
+    "topojson-client": "^3.1.0",
+    "topojson-server": "^3.0.1",
+    "topojson-simplify": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdullahoguk/tr-geo-picker.git"
+  },
+  "homepage": "https://github.com/abdullahoguk/tr-geo-picker#readme",
+  "bugs": {
+    "url": "https://github.com/abdullahoguk/tr-geo-picker/issues"
+  }
+}

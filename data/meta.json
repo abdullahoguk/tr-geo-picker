@@ -1,0 +1,184 @@
+{
+  "name": "tr-geo-picker data",
+  "version": "2026.10",
+  "generatedAt": "2026-10-24T11:53:56.764Z",
+  "counts": {
+    "bolge": 7,
+    "il": 81,
+    "ilce": 973,
+    "perBolge": {
+      "marmara": 11,
+      "ege": 8,
+      "akdeniz": 8,
+      "ic-anadolu": 13,
+      "karadeniz": 18,
+      "dogu-anadolu": 14,
+      "guneydogu-anadolu": 9
+    }
+  },
+  "officialSummary": {
+    "Il": 81,
+    "BuyuksehirBelediye": 30,
+    "Ilce": 922,
+    "IlBelediye": 51,
+    "Mahalle": 32326,
+    "BuyuksehirIlceBelediye": 519,
+    "Koy": 18211,
+    "IlceBelediye": 403,
+    "BeldeBelediye": 399,
+    "ToplamBelediye": 1402
+  },
+  "sources": {
+    "official": {
+      "name": "T.C. İçişleri Bakanlığı — e-İçişleri Mülki İdari Bölümler",
+      "url": "https://www.e-icisleri.gov.tr/Anasayfa/MulkiIdariBolumleri.aspx",
+      "accessedAt": "2026-10-24T11:38:00.400Z",
+      "note": "İl/ilçe isimleri ve kodları (otorite). İlçe id = e-İçişleri ilçe kodu, il id = plaka."
+    },
+    "geometry": {
+      "name": "geoBoundaries gbOpen TUR",
+      "homepage": "https://www.geoboundaries.org",
+      "adm1": {
+        "boundaryID": "TUR-ADM1-25984515",
+        "year": "2021",
+        "upstream": "Open Street Map",
+        "upstreamLicense": "Creative Commons Attribution-ShareAlike 2.0",
+        "sourceDataUpdateDate": "Thu Aug 31 09:55:30 2023",
+        "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TUR/ADM1/geoBoundaries-TUR-ADM1.geojson",
+        "accessedAt": "2026-10-24T11:38:52.647Z"
+      },
+      "adm2": {
+        "boundaryID": "TUR-ADM2-54988432",
+        "year": "2021",
+        "upstream": "OpenStreetMap, OSM Boundaries",
+        "upstreamLicense": "Open Data Commons Open Database License 1.0",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TUR/ADM2/geoBoundaries-TUR-ADM2.geojson",
+        "accessedAt": "2026-10-24T11:38:54.426Z"
+      },
+      "snapshotSimplifyMeters": 15
+    },
+    "osm": {
+      "url": "https://overpass-api.de/api/interpreter",
+      "license": "ODbL 1.0",
+      "usedFor": []
+    },
+    "regions": {
+      "file": "scripts/build-data/bolgeler.json",
+      "source": "Birinci Coğrafya Kongresi (1941); il merkezine göre il→bölge dağılımı"
+    },
+    "sourcesUpdatedAt": "2026-10-24T11:53:29.788Z"
+  },
+  "license": {
+    "code": "MIT",
+    "data": "ODbL 1.0 (geometri OpenStreetMap türevidir)",
+    "attribution": "Sınır geometrisi: geoBoundaries (www.geoboundaries.org), kaynak verisi © OpenStreetMap katkıda bulunanlar, ODbL 1.0 (openstreetmap.org/copyright). İl/ilçe listesi: T.C. İçişleri Bakanlığı e-İçişleri."
+  },
+  "processing": {
+    "tool": "topojson-client / topojson-simplify",
+    "projection": {
+      "name": "Lambert Conformal Conic (spherical)",
+      "lat1": 37,
+      "lat2": 41,
+      "lat0": 39,
+      "lon0": 35
+    },
+    "viewBoxLongSide": 1000,
+    "simplify": "topology-aware (Visvalingam), dosya başına bütçeye göre aralık",
+    "budgets": {
+      "turkiye": 60000,
+      "bolge": 80000,
+      "il": 40000
+    }
+  },
+  "files": {
+    "catalog": 45805,
+    "turkiye": 53723,
+    "bolgeMax": 64544,
+    "ilMax": 38526,
+    "total": 1909886
+  },
+  "checks": [
+    {
+      "id": "unmatched-empty",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "il-count-matches-official",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "ilce-count-matches-official",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "official-summary-il",
+      "ok": true,
+      "level": "warn"
+    },
+    {
+      "id": "official-summary-ilce",
+      "ok": true,
+      "level": "warn"
+    },
+    {
+      "id": "unique-bolge-ids",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "unique-il-ids",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "unique-ilce-ids",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "ids-are-strings",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "every-il-has-bolge",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "every-ilce-has-il",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "bolge-il-lists-consistent",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "every-il-has-ilce",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "every-item-has-geometry",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "no-empty-paths",
+      "ok": true,
+      "level": "error"
+    },
+    {
+      "id": "size-budgets",
+      "ok": true,
+      "level": "error"
+    }
+  ],
+  "warnings": []
+}

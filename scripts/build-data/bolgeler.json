@@ -1,0 +1,13 @@
+{
+  "$comment": "7 coğrafi bölge (1941 Birinci Coğrafya Kongresi). Birden fazla bölgeye yayılan illerde il merkezinin bulunduğu bölge esas alınmıştır. Kaynak: T.C. Kültür ve Turizm Bakanlığı / MEB coğrafya müfredatı ve https://tr.wikipedia.org/wiki/Türkiye'nin_coğrafi_bölgeleri (il merkezine göre dağılım). Anahtarlar plaka kodudur (string).",
+  "source": "Birinci Coğrafya Kongresi (1941); il merkezine göre il→bölge dağılımı",
+  "bolgeler": [
+    { "id": "marmara", "name": "Marmara Bölgesi", "iller": ["10", "11", "16", "17", "22", "34", "39", "41", "54", "59", "77"] },
+    { "id": "ege", "name": "Ege Bölgesi", "iller": ["03", "09", "20", "35", "43", "45", "48", "64"] },
+    { "id": "akdeniz", "name": "Akdeniz Bölgesi", "iller": ["01", "07", "15", "31", "32", "33", "46", "80"] },
+    { "id": "ic-anadolu", "name": "İç Anadolu Bölgesi", "iller": ["06", "26", "38", "40", "42", "50", "51", "58", "66", "68", "70", "71", "18"] },
+    { "id": "karadeniz", "name": "Karadeniz Bölgesi", "iller": ["05", "08", "14", "19", "28", "29", "37", "52", "53", "55", "57", "60", "61", "67", "69", "74", "78", "81"] },
+    { "id": "dogu-anadolu", "name": "Doğu Anadolu Bölgesi", "iller": ["04", "12", "13", "23", "24", "25", "30", "36", "44", "49", "62", "65", "75", "76"] },
+    { "id": "guneydogu-anadolu", "name": "Güneydoğu Anadolu Bölgesi", "iller": ["02", "21", "27", "47", "56", "63", "72", "73", "79"] }
+  ]
+}

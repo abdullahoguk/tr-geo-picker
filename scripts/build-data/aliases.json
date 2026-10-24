@@ -1,0 +1,8 @@
+{
+  "$comment": "Geometri kaynağındaki isim → resmi ilçe adı. Genel kurallarla (\"X merkez\", \"(merkez)\", \"X District\", il adıyla anılan merkez ilçe) çözülemeyen farklar içindir. Anahtar: '<plaka>:<kaynaktaki ad>'.",
+  "ilce": {
+    "17:Imbros": "Gökçeada",
+    "34:Prince Islands": "Adalar",
+    "71:Karakeçeli": "Karakeçili"
+  }
+}

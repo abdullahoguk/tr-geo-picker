@@ -1,0 +1,15 @@
+# bağımlılıklar ve araç çıktıları
+node_modules/
+dist/
+site/
+test-results/
+playwright-report/
+*.tgz
+
+# veri pipeline indirme önbelleği (data:update yeniden üretir)
+scripts/build-data/.cache/
+
+# yerel notlar
+SPEC.md
+
+.DS_Store

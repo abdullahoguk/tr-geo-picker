@@ -1,0 +1,37 @@
+{
+  "updatedAt": "2026-10-24T11:53:29.788Z",
+  "official": {
+    "name": "T.C. İçişleri Bakanlığı — e-İçişleri Mülki İdari Bölümler",
+    "url": "https://www.e-icisleri.gov.tr/Anasayfa/MulkiIdariBolumleri.aspx",
+    "accessedAt": "2026-10-24T11:38:00.400Z"
+  },
+  "geometry": {
+    "name": "geoBoundaries gbOpen TUR",
+    "homepage": "https://www.geoboundaries.org",
+    "adm1": {
+      "boundaryID": "TUR-ADM1-25984515",
+      "year": "2021",
+      "upstream": "Open Street Map",
+      "upstreamLicense": "Creative Commons Attribution-ShareAlike 2.0",
+      "sourceDataUpdateDate": "Thu Aug 31 09:55:30 2023",
+      "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TUR/ADM1/geoBoundaries-TUR-ADM1.geojson",
+      "accessedAt": "2026-10-24T11:38:52.647Z"
+    },
+    "adm2": {
+      "boundaryID": "TUR-ADM2-54988432",
+      "year": "2021",
+      "upstream": "OpenStreetMap, OSM Boundaries",
+      "upstreamLicense": "Open Data Commons Open Database License 1.0",
+      "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+      "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TUR/ADM2/geoBoundaries-TUR-ADM2.geojson",
+      "accessedAt": "2026-10-24T11:38:54.426Z"
+    },
+    "snapshotSimplifyMeters": 15
+  },
+  "osm": {
+    "url": "https://overpass-api.de/api/interpreter",
+    "license": "ODbL 1.0",
+    "usedFor": []
+  },
+  "warnings": []
+}

@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Türkiye İl İlçe Seçici Harita | tr-geo-picker Web Component</title>
+<meta name="description" content="Türkiye haritası üzerinden il ve ilçe seçtiren, formlarla uyumlu, bağımlılıksız ücretsiz Web Component. 81 il, 973 ilçe, arama, klavye desteği ve koyu tema. HTML, PHP, ASP, React ve Vue ile çalışır.">
+<meta name="keywords" content="il ilçe seçici, türkiye haritası, il ilçe dropdown, il ilçe listesi, svg türkiye haritası, web component, custom element, form">
+<meta name="author" content="Abdullah Öğük">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<!-- seo:abs — build-site.mjs, SITE_URL verildiğinde canonical / og:url / og:image etiketlerini buraya yazar -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="tr-geo-picker">
+<meta property="og:title" content="Türkiye İl İlçe Seçici Harita: tr-geo-picker">
+<meta property="og:description" content="Harita üzerinden il ve ilçe seçtiren, form uyumlu, bağımlılıksız Web Component. 81 il, 973 ilçe.">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="tr-geo-picker: Türkiye bölge, il ve ilçe haritası">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "tr-geo-picker",
+  "description": "Türkiye haritası üzerinden il ve ilçe seçtiren, form uyumlu, bağımlılıksız Web Component.",
+  "inLanguage": "tr",
+  "programmingLanguage": "JavaScript",
+  "runtimePlatform": "Web browser",
+  "codeRepository": "https://github.com/abdullahoguk/tr-geo-picker",
+  "license": "https://opensource.org/licenses/MIT",
+  "author": { "@type": "Person", "name": "Abdullah Öğük" },
+  "keywords": "il ilçe seçici, Türkiye haritası, web component, form",
+  "isAccessibleForFree": true
+}
+</script>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f7f7f5; --card: #fff; --fg: #1c1c1a; --muted: #6b6b66; --line: #e4e4df; --accent: #2563eb;
+    --code: #f0f0ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #121212; --card: #1b1b1b; --fg: #ececea; --muted: #a0a09a; --line: #2c2c2a; --accent: #60a5fa; --code: #232321; }
+  }
+  :root[data-theme="dark"] { --bg: #121212; --card: #1b1b1b; --fg: #ececea; --muted: #a0a09a; --line: #2c2c2a; --accent: #60a5fa; --code: #232321; }
+  :root[data-theme="light"] { color-scheme: light; }
+  :root[data-theme="dark"] { color-scheme: dark; }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header, main, footer { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+  header { padding-top: 40px; padding-bottom: 24px; display: grid; gap: 16px; }
+  h1 { margin: 0; font-size: clamp(28px, 4vw, 40px); letter-spacing: -.02em; }
+  h1 code { font: inherit; }
+  header p { margin: 0; color: var(--muted); max-width: 62ch; }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); position: sticky; top: 8px; z-index: 5; }
+  .bar label { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13px; }
+  select, button { font: inherit; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; }
+  button { cursor: pointer; }
+  button.primary { background: var(--accent); border-color: var(--accent); color: var(--card); }
+  a { color: var(--accent); }
+
+  main { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 16px; padding-bottom: 32px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+  section.wide { grid-column: 1 / -1; }
+  h2 { margin: 0; font-size: 16px; }
+  section > p { margin: 0; color: var(--muted); font-size: 13.5px; }
+  details > summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+  details[open] > summary { margin-bottom: 6px; }
+  .prose { display: grid; gap: 8px; }
+  .prose h2 { margin-top: 8px; }
+  .prose p, .prose li { margin: 0; color: var(--muted); max-width: 75ch; }
+  .prose ul { margin: 0; padding-left: 20px; display: grid; gap: 4px; }
+  pre { margin: 0; padding: 10px; background: var(--code); border-radius: 8px; overflow: auto; font: 12.5px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; white-space: pre-wrap; word-break: break-word; }
+  form { display: grid; gap: 10px; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .out { min-height: 2.6em; }
+  .log { max-height: 220px; }
+  footer { color: var(--muted); font-size: 13px; padding-bottom: 40px; }
+
+  /* Özel tema örneği: theme="kurumsal" */
+  tr-geo-picker[theme="kurumsal"] {
+    --tks-bg: #fffaf3; --tks-fg: #3b2f2f; --tks-muted: #8a7563; --tks-border: #ead9c3;
+    --tks-fill: #f1e3cf; --tks-fill-hover: #f0b47a; --tks-fill-selected: #b4441e; --tks-fill-disabled: #f7efe4;
+    --tks-stroke: #fffaf3; --tks-focus: #b4441e; --tks-tooltip-bg: #3b2f2f; --tks-tooltip-fg: #fffaf3; --tks-chip-bg: #f6ead9;
+    --tks-region-1: #e9b384; --tks-region-2: #d98e5f; --tks-region-3: #c9a66b; --tks-region-4: #a7b48a;
+    --tks-region-5: #8fb0a9; --tks-region-6: #b39cb0; --tks-region-7: #d4a5a5;
+    --tks-radius: 2px; --tks-font: Georgia, serif;
+  }
+  tr-geo-picker:invalid { outline: 0; }
+  form.tried tr-geo-picker:invalid { outline: 2px solid #dc2626; outline-offset: 2px; border-radius: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Türkiye il ilçe seçici harita <small style="display:block;font-size:.5em;color:var(--muted);font-weight:500"><code>&lt;tr-geo-picker&gt;</code></small></h1>
+  <p>Türkiye haritası üzerinden il veya ilçe seçtiren, form içinde normal bir <code>&lt;input&gt;</code> gibi davranan, bağımlılıksız Web Component. Bölge › il › ilçe sırasıyla iner; arama, klavye ve liste ile de seçim yapılabilir.</p>
+  <noscript><p>Harita seçici JavaScript gerektirir. Kaynak kod ve dokümantasyon: <a href="https://github.com/abdullahoguk/tr-geo-picker">github.com/abdullahoguk/tr-geo-picker</a></p></noscript>
+  <div class="bar" role="group" aria-label="Demo ayarları">
+    <label>Tema
+      <select id="theme">
+        <option value="auto">auto</option><option value="light">light</option><option value="dark">dark</option><option value="kurumsal">kurumsal (özel)</option>
+      </select>
+    </label>
+    <label>Dil
+      <select id="locale"><option value="tr">tr</option><option value="en">en</option></select>
+    </label>
+    <label>Boyut
+      <select id="size"><option value="md">md</option><option value="sm">sm</option></select>
+    </label>
+    <span style="flex:1"></span>
+    <a href="https://github.com/abdullahoguk/tr-geo-picker">GitHub</a>
+  </div>
+</header>
+
+<main>
+  <section>
+    <h2>İlçe seçimi (form, required)</h2>
+    <p><code>mode="ilce"</code>, <code>value-type="id"</code>. Gönder'e bastığınızda formun POST edeceği veri aşağıda görünür.</p>
+    <form id="f1">
+      <tr-geo-picker name="ilce" mode="ilce" required></tr-geo-picker>
+      <div class="row"><button class="primary">Gönder</button><button type="reset">Sıfırla</button></div>
+      <pre class="out" aria-live="polite">—</pre>
+    </form>
+    <details><summary>Kod</summary><pre><code>&lt;form method="post" action="/kayit"&gt;
+  &lt;tr-geo-picker name="ilce" required&gt;&lt;/tr-geo-picker&gt;
+  &lt;button&gt;Gönder&lt;/button&gt;
+&lt;/form&gt;
+&lt;script type="module" src="tr-geo-picker.min.js"&gt;&lt;/script&gt;</code></pre></details>
+  </section>
+
+  <section>
+    <h2>Sadece il, değer olarak isim</h2>
+    <p><code>mode="il" value-type="name"</code>. İl seçilince akış biter.</p>
+    <form id="f2">
+      <tr-geo-picker name="il" mode="il" value-type="name"></tr-geo-picker>
+      <div class="row"><button class="primary">Gönder</button><button type="reset">Sıfırla</button></div>
+      <pre class="out">—</pre>
+    </form>
+    <details><summary>Kod</summary><pre><code>&lt;tr-geo-picker name="il" mode="il" value-type="name"&gt;&lt;/tr-geo-picker&gt;
+&lt;!-- form: il=Düzce --&gt;</code></pre></details>
+  </section>
+
+  <section>
+    <h2>Popover (kompakt alan)</h2>
+    <p><code>display="popover"</code>. Input yüksekliğinde bir alan; tıklayınca harita paneli açılır. Ayrı alanlar için <code>emit-fields</code>, isim ayracı <code>name-separator=" › "</code>.</p>
+    <form id="f3">
+      <tr-geo-picker name="lokasyon" display="popover" value-type="name" name-separator=" › " emit-fields></tr-geo-picker>
+      <div class="row"><button class="primary">Gönder</button><button type="reset">Sıfırla</button></div>
+      <pre class="out">—</pre>
+    </form>
+    <details><summary>Kod</summary><pre><code>&lt;tr-geo-picker name="lokasyon" display="popover"
+               value-type="name" name-separator=" › "
+               emit-fields&gt;&lt;/tr-geo-picker&gt;
+&lt;!-- form: lokasyon, lokasyon_bolge, lokasyon_il, lokasyon_ilce --&gt;</code></pre></details>
+  </section>
+
+  <section>
+    <h2>Tek ile kilitli + önceden seçili</h2>
+    <p><code>start-il="81" lock-level value="1815"</code>. Düzce ilçeleri açılır, Akçakoca seçili gelir, yukarı çıkılamaz.</p>
+    <form id="f4">
+      <tr-geo-picker name="ilce" start-il="81" lock-level value="1815"></tr-geo-picker>
+      <div class="row"><button class="primary">Gönder</button><button type="reset">Sıfırla</button></div>
+      <pre class="out">—</pre>
+    </form>
+    <details><summary>Kod</summary><pre><code>&lt;!-- edit formu: kayıtlı değer ile açılır --&gt;
+&lt;tr-geo-picker name="ilce" start-il="81" lock-level
+               value="&lt;%= rs("IlceKodu") %&gt;"&gt;&lt;/tr-geo-picker&gt;</code></pre></details>
+  </section>
+
+  <section>
+    <h2>Filtre: yalnız hizmet verilen yerler</h2>
+    <p><code>filter</code> property'si ile yalnız Marmara ve Ege illeri seçilebilir; diğerleri gri çizilir.</p>
+    <tr-geo-picker id="filtered" name="hizmet"></tr-geo-picker>
+    <details><summary>Kod</summary><pre><code>const izinli = new Set(['marmara', 'ege']);
+el.filter = (item) =&gt;
+  item.level === 'bolge' ? izinli.has(item.id)
+  : item.level === 'il' ? izinli.has(item.bolge)
+  : true;</code></pre></details>
+  </section>
+
+  <section>
+    <h2>Özel değerler (<code>value-type="custom"</code>)</h2>
+    <p>Katalog <code>data</code> property'siyle verilir; her ilçeye kendi veritabanı id'niz (<code>value</code>) eklenir.</p>
+    <form id="f6">
+      <tr-geo-picker id="custom" name="lokasyon_id" value-type="custom"></tr-geo-picker>
+      <div class="row"><button class="primary">Gönder</button></div>
+      <pre class="out">—</pre>
+    </form>
+    <details><summary>Kod</summary><pre><code>const cat = await fetch('data/catalog.json').then((r) =&gt; r.json());
+el.data = {
+  ...cat,
+  ilceler: cat.ilceler.map((c) =&gt; ({ ...c, value: dbId[c.id] })),
+};
+// form: lokasyon_id=ILCE_5521</code></pre></details>
+  </section>
+
+  <section class="wide">
+    <h2>Event kaydı</h2>
+    <p>Sayfadaki tüm bileşenlerin <code>input</code>, <code>change</code>, <code>tks-navigate</code> ve <code>tks-error</code> event'leri.</p>
+    <pre class="log" id="log" aria-live="off"></pre>
+  </section>
+
+  <section class="wide prose">
+    <h2>Kurulum</h2>
+    <p>npm ile kurun ya da <code>dist/</code> ve <code>data/</code> klasörlerini sunucunuza kopyalayın. Çalışmak için başka bir kütüphane gerekmez.</p>
+    <pre><code>npm install tr-geo-picker</code></pre>
+    <pre><code>&lt;script type="module" src="/js/tr-geo/dist/tr-geo-picker.min.js"&gt;&lt;/script&gt;
+&lt;tr-geo-picker name="ilce"&gt;&lt;/tr-geo-picker&gt;</code></pre>
+
+    <h2>Özellikler</h2>
+    <ul>
+      <li><strong>81 il, 973 ilçe:</strong> İçişleri Bakanlığı listesi, il kodu olarak plaka numarası.</li>
+      <li><strong>Form uyumlu:</strong> <code>name</code>, <code>required</code>, reset ve doğrulama native input gibi çalışır. Sunucuya düz form alanı gider; PHP, ASP, .NET veya Node fark etmez.</li>
+      <li><strong>Hafif:</strong> ~10 KB gzip, sıfır bağımlılık. Harita verisi yalnız gösterilen seviye için yüklenir.</li>
+      <li><strong>Erişilebilir:</strong> klavyeyle tam kullanım, Türkçe karakter duyarsız arama, ekran okuyucu duyuruları.</li>
+      <li><strong>Özelleştirilebilir:</strong> açık, koyu ve özel temalar; CSS değişkenleri ve <code>::part()</code>.</li>
+      <li><strong>React, Vue, Angular ve düz HTML</strong> ile çalışır; standart bir custom element'tir.</li>
+    </ul>
+
+    <h2>Sık sorulanlar</h2>
+    <p><strong>Formdan ne gönderilir?</strong> Varsayılan olarak ilçe kodu (<code>ilce=1815</code>). <code>value-type="name"</code> ile isim, <code>value-type="custom"</code> ile kendi veritabanı id'leriniz gönderilir.</p>
+    <p><strong>Sadece il seçtirebilir miyim?</strong> Evet, <code>mode="il"</code>. Form plaka kodunu (<code>il=34</code>) gönderir.</p>
+    <p><strong>Harita verisi güncel mi?</strong> İl ve ilçe listesi e-İçişleri'nden, sınırlar OpenStreetMap tabanlı geoBoundaries'ten alınır ve paketle birlikte gelir. Dış servise istek atılmaz.</p>
+    <p>Bütün seçenekler: <a href="https://github.com/abdullahoguk/tr-geo-picker/blob/main/docs/API.md">API dokümanı</a>, <a href="https://github.com/abdullahoguk/tr-geo-picker/blob/main/docs/EXAMPLES.md">örnekler</a>, <a href="https://github.com/abdullahoguk/tr-geo-picker/blob/main/docs/THEMING.md">tema</a>.</p>
+  </section>
+</main>
+
+<footer>
+  Sınır geometrisi: <a href="https://www.geoboundaries.org">geoBoundaries</a>, kaynak verisi © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap katkıda bulunanlar</a> (ODbL). İl/ilçe listesi: T.C. İçişleri Bakanlığı e-İçişleri. Kod: MIT.
+</footer>
+
+<script type="module">
+  import '../src/tr-geo-picker.js';
+
+  const all = () => document.querySelectorAll('tr-geo-picker');
+  const setAll = (attr, v) => all().forEach((el) => el.setAttribute(attr, v));
+  const pref = (k, v) => { try { v === undefined ? (v = localStorage.getItem('tgp-' + k)) : localStorage.setItem('tgp-' + k, v); } catch {} return v; };
+
+  for (const [id, attr] of [['theme', 'theme'], ['locale', 'locale'], ['size', 'size']]) {
+    const sel = document.getElementById(id);
+    const saved = pref(id);
+    if (saved) sel.value = saved;
+    const apply = () => {
+      setAll(attr, sel.value);
+      pref(id, sel.value);
+      if (id === 'theme') {
+        const page = sel.value === 'light' || sel.value === 'dark' ? sel.value : '';
+        page ? document.documentElement.setAttribute('data-theme', page) : document.documentElement.removeAttribute('data-theme');
+      }
+    };
+    sel.addEventListener('change', apply);
+    apply();
+  }
+
+  // Form gönderimi: sayfayı terk etmeden FormData'yı göster
+  for (const form of document.querySelectorAll('form')) {
+    const out = form.querySelector('.out');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      form.classList.add('tried');
+      const fd = [...new FormData(form)].map(([k, v]) => `${k} = ${JSON.stringify(v)}`);
+      out.textContent = fd.length ? fd.join('\n') : '(boş)';
+    });
+    form.addEventListener('invalid', () => form.classList.add('tried'), true);
+    form.addEventListener('reset', () => { out.textContent = '—'; form.classList.remove('tried'); });
+  }
+
+  // Filtre örneği
+  const allowed = new Set(['marmara', 'ege']);
+  document.getElementById('filtered').filter = (item) =>
+    item.level === 'bolge' ? allowed.has(item.id) : item.level === 'il' ? allowed.has(item.bolge) : true;
+
+  // Özel değer örneği: paketle gelen kataloğu alıp her öğeye kendi id'mizi ekliyoruz
+  const custom = document.getElementById('custom');
+  fetch(new URL('../data/catalog.json', import.meta.url)).then((r) => r.json()).then((cat) => {
+    custom.data = {
+      ...cat,
+      ilceler: cat.ilceler.map((c, i) => ({ ...c, value: `ILCE_${5000 + i}` })),
+    };
+  });
+
+  // Event kaydı
+  const log = document.getElementById('log');
+  const label = (el) => el.id || el.getAttribute('name') || 'tr-geo-picker';
+  for (const type of ['input', 'change', 'tks-navigate', 'tks-error']) {
+    document.addEventListener(type, (e) => {
+      if (e.target.localName !== 'tr-geo-picker' || !e.detail) return;
+      const d = type.startsWith('tks') ? e.detail : { value: e.detail.value, path: Object.values(e.detail.selection).filter(Boolean).map((x) => x.name).join(' › ') };
+      log.textContent = `${new Date().toLocaleTimeString('tr')}  ${label(e.target)}  ${type}  ${JSON.stringify(d, (k, v) => (v instanceof Error ? v.message : v))}\n` + log.textContent.split('\n').slice(0, 40).join('\n');
+    });
+  }
+</script>
+</body>
+</html>
